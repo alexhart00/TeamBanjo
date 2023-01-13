@@ -1,0 +1,9 @@
+Go to https://code.visualstudio.com/Download download VSCODE
+Run Installer
+Download Extensions Polaris and HTML CSS Support
+Download Git https://git-scm.com/downloads
+Run Installer
+Download NodeJS https://nodejs.org/en/download/
+Run Installer
+Link to Github alexhart00/TeamBanjo
+Ensure NodeJS installed by opening terminal select bash "node -v"
