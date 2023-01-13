@@ -1,0 +1,36 @@
+Project Plan Approach
+Agile methodology
+
+Tasks
+Web Development: Build a website that interfaces with the database and the clothes picker program, with accounts that interfaces with all components of the project.
+
+Mobile Development: Build a Mobile application that interfaces with the database and the cloths picker program, with accounts that interfaces with all components of the project.
+
+Database Development: Build a database that interfaces with the Mobile and Web aspects of this project, and includes user accounts.
+
+Clothes-picker Development: Must be a visually appealing program that provides an easy way to interface with the Web and Mobile products. This also includes all of the photographs needed for each item and combination of outfits displayed on a mannequin to be used in the application. It will also save what you have recently searched and show the costumer clothing that is related closely to that they searched before. 
+
+Timeline
+
+Weeks 1 - 2 Project wireframing / design
+Weeks 3 - 8 Translate design into JS/Node
+Weeks 9 - 12 Shopify Integration
+Weeks 13 - 14 Testing / Debugging
+
+Order for the tasks to be completed.
+1 Database Development:
+    1.1 Database design - Kayla  & Troy
+    1.1.1 Wireframe design - Alex, Emma & Connor
+    1.2 Database linked with mobile and web application - Everyone
+
+2 Clothes-picker Development:
+
+	2.1 Program design Alex, Emma & Connor
+	2.2 Program integration with web application - Everyone
+
+3 Web Development:
+
+	3.1 Web UI design - Alex, Emma & Connor
+	3.2 Web database integration - Everyone
+	3.3 Web Clothes picker integration - Everyone
+
