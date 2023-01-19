@@ -5,12 +5,15 @@
  - Restablish team roles and expectations
  - Get acquaintanced with Shopifiy's APIs, CLI and design system "Polaris"
  ### DONE
- - Got a new teamMember
+ - Got a new teamMember ("EMMA") YAY
  - Finished Wireframes
  - Established Roles
  - Downloaded Most required APIs Note "Switching from Node.JS to React"
 
  ## Week 2 - 10 Meters
  ### TO DO
- - TBA
+ - Get intergrations with Hydrogen taken care of
+ - "Start the project" Get Hydrogen to launch
+ - Get Shopifiy app integrated
+ - Continue to familarize ourself with shopifiy work enivorment.
 
