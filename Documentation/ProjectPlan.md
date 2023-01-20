@@ -14,6 +14,8 @@
  ### TO DO
  - Get intergrations with Hydrogen taken care of
  - "Start the project" Get Hydrogen to launch
+ - Begin work on database via MongoDB (Get users set up on own computers)
  - Get Shopifiy app integrated
  - Continue to familarize ourself with shopifiy work enivorment.
+
 
