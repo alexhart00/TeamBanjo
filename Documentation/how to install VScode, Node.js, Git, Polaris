@@ -9,3 +9,4 @@ Link to Github alexhart00/TeamBanjo
 Ensure NodeJS installed by opening terminal select bash "node -v"
 Download ngrok "Required by shopifiy, Web API that runs stuff locally for preview"
 Install Hydrogen copy and past into comand "npm init @shopify/hydrogen"
+Install "MongoDB for VS Code"
