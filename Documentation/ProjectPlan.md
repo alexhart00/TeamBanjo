@@ -24,6 +24,8 @@
 ## Week 3 - 3 beat streak
 ### TO DO
 - Get Shopify Tokens and domain decided and finished
-- Put some basic html onto the Hydrogen Application
+- import some basic html onto the Hydrogen Application
 - Team meeting on progess for both database and application
+- Decide how branches will be used for the application side of things
 ### Done
+- Created an easy to view list of user stories
