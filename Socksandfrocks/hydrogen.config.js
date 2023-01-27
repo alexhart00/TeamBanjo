@@ -2,8 +2,8 @@ import {defineConfig} from '@shopify/hydrogen/config';
 
 export default defineConfig({
   shopify: {
-    storeDomain: 'hydrogen-preview.myshopify.com',
-    storefrontToken: '3b580e70970c4528da70c98e097c2fa0',
+    storeDomain: 'https://socks-frocks.myshopify.com/',
+    storefrontToken: 'e9ec43b51b99727ea40c218d1534b5c2',
     storefrontApiVersion: '2022-07',
   },
 });
