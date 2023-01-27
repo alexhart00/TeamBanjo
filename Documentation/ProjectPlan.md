@@ -31,4 +31,6 @@
 - Created an easy to view list of user stories
 - We have decided that branching is unnecessary for this project, but not bad
 - Shopify Token and domain has been decided and finished
--
+- tinkering with the hydrogen framework has given us a better understanding of the framework
+
+
