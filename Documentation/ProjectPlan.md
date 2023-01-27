@@ -29,3 +29,6 @@
 - Decide how branches will be used for the application side of things
 ### Done
 - Created an easy to view list of user stories
+- We have decided that branching is unnecessary for this project, but not bad
+- Shopify Token and domain has been decided and finished
+-
