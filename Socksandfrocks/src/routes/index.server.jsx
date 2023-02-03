@@ -1,3 +1,9 @@
+import NavBar from "./Shared/NavBar.server";
+
 export default function Home() {
-  return <div>Hello World</div>;
+  return(
+    <div>
+      <NavBar/>
+    </div>
+  );
 }
