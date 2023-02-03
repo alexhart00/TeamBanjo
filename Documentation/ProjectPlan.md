@@ -33,4 +33,13 @@
 - Shopify Token and domain has been decided and finished
 - tinkering with the hydrogen framework has given us a better understanding of the framework
 
-
+## Week 4 - Mongo and React dinner
+### TO DO 
+- import Database into JSON
+- Create and display main application details
+- Completely Understand all intergrations
+- Upload photos into MONGO DB
+### Done
+- Basic Database except photos
+- React issue with routes
+- Outline of React components list
