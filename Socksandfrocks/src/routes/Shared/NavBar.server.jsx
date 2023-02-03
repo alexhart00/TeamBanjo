@@ -1,10 +1,12 @@
+import Robot from '../../assets/pictures/S&F.jpg';
+
 export default function NavBar(){
     return(
        <div>
             <nav class="bg-gray-100 border-gray-200 px-2 sm:px-4 py-2.5 rounded">
                 <div class="container flex flex-wrap items-center justify-between mx-auto">
                     <div class="flex items-center">
-                        <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mr-3 sm:h-9"/>
+                        <img src={Robot} alt="Robot" class="h-6 mr-3 sm:h-9"/>
                         <span class="self-center text-xl font-semibold whitespace-nowrap">Rigout Pickout</span>
                     </div>
                 <div class="hidden w-full md:block md:w-auto" id="navbar-default">
