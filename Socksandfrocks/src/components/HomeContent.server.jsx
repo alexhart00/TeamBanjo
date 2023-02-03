@@ -1,7 +1,8 @@
+import products from "../assets/database/products.json"
+
 export default function HomepageContent() {
-    const name = "george"
     return(
-          <div><h1> hello {name} world</h1></div>
+          <div>{products.map((item, i) => <li key={i}>{item.id} - {item.style}</li>)}</div>
     );
   }
 
