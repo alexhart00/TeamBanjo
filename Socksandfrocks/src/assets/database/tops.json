@@ -1,0 +1,104 @@
+[
+    {
+        "_id": {
+          "$oid": "63d84c1c61568f568156cc1c"
+        },
+        "id": "t1",
+        "itemName": "Pink Sweetheart Blouse",
+        "sleeveLength": "Full",
+        "color": "Pink",
+        "pattern": "Solid",
+        "style": [
+          "Dressy",
+          "Professional",
+          "Cute"
+        ],
+        "dressCode": [
+          "Dressy",
+          "Business Casual",
+          "Business Professional"
+        ]
+      },
+      {
+        "_id": {
+          "$oid": "63d84c6c61568f568156cc1d"
+        },
+        "id": "t2",
+        "itemName": "Colorful Tie Blouse",
+        "sleeveLength": "Short",
+        "color": [
+          "White",
+          "Yellow",
+          "Multi"
+        ],
+        "pattern": "Other",
+        "style": [
+          "Casual",
+          "Cool"
+        ],
+        "dressCode": [
+          "Casual",
+          "Business Casual"
+        ]
+      },
+      {
+        "_id": {
+          "$oid": "63d84c9861568f568156cc1e"
+        },
+        "id": "t3",
+        "itemName": "Turquoise Button Down Top",
+        "sleeveLength": "Sleeveless",
+        "color": "Turquoise",
+        "pattern": "Solid",
+        "style": [
+          "Casual",
+          "Classic"
+        ],
+        "dressCode": [
+          "Casual",
+          "Business Casual"
+        ]
+      },
+      {
+        "_id": {
+          "$oid": "63d84cbf61568f568156cc1f"
+        },
+        "id": "t4",
+        "itemName": "Off the Shoulder Striped Top",
+        "sleeveLength": "3/4",
+        "color": [
+          "Burnt Orange",
+          "Yellow"
+        ],
+        "pattern": "Striped",
+        "style": [
+          "Casual",
+          "Cute",
+          "Dressy"
+        ],
+        "dressCode": [
+          "Casual",
+          "Dressy"
+        ]
+      },
+      {
+        "_id": {
+          "$oid": "63d84d5861568f568156cc20"
+        },
+        "id": "t5",
+        "itemName": "Maroon Asymmetrical Shirt",
+        "sleeveLength": "Short",
+        "color": "Maroon",
+        "pattern": "Solid",
+        "style": [
+          "Cute",
+          "Classic",
+          "Cool",
+          "Dressy"
+        ],
+        "dressCode": [
+          "Dressy",
+          "Business Casual"
+        ]
+      }
+]

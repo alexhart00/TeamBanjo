@@ -1,0 +1,102 @@
+[
+    {
+        "_id": {
+          "$oid": "63d8484761568f568156cc13"
+        },
+        "id": "b1",
+        "itemName": "Khaki Chino Pant",
+        "type": "Pant",
+        "color": "Khaki",
+        "pattern": "Solid",
+        "style": [
+          "Professional",
+          "Casual",
+          "Classic"
+        ],
+        "dressCode": [
+          "Casual",
+          "Business Casual"
+        ]
+      },
+      {
+        "_id": {
+          "$oid": "63d8489c61568f568156cc14"
+        },
+        "id": "b2",
+        "itemName": "White Skinny Jean",
+        "type": "Pant",
+        "color": "White",
+        "pattern": "Solid",
+        "style": [
+          "Casual",
+          "Cute",
+          "Cool",
+          "Dressy"
+        ],
+        "dressCode": [
+          "Casual",
+          "Dressy",
+          "Business Casual"
+        ]
+      },
+      {
+        "_id": {
+          "$oid": "63d848ac61568f568156cc15"
+        },
+        "id": "b3",
+        "itemName": "Dark Rinse Skinny Jean",
+        "type": "Pant",
+        "color": "Blue",
+        "pattern": "Solid",
+        "style": [
+          "Casual",
+          "Cute",
+          "Classic",
+          "Punk",
+          "Cool",
+          "Dressy"
+        ],
+        "dressCode": [
+          "Casual",
+          "Dressy",
+          "Business Casual"
+        ]
+      },
+      {
+        "_id": {
+          "$oid": "63d848e761568f568156cc17"
+        },
+        "id": "b4",
+        "itemName": "Black Pleated Skirt",
+        "type": "Skirt",
+        "color": "Black",
+        "pattern": "Solid",
+        "style": [
+          "Casual",
+          "Classic",
+          "Goth",
+          "Punk",
+          "Cool"
+        ],
+        "dressCode": "Casual"
+      },
+      {
+        "_id": {
+          "$oid": "63d8492961568f568156cc19"
+        },
+        "id": "b5",
+        "itemName": "Black Trouser Pant",
+        "type": "Pant",
+        "color": "BLack",
+        "pattern": "Solid",
+        "style": [
+          "Dressy",
+          "Professional",
+          "Classic"
+        ],
+        "dressCode": [
+          "Dressy",
+          "Business Professional"
+        ]
+      }
+]

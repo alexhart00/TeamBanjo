@@ -6,6 +6,7 @@ import CuratedPage from './routes/Curated/CuratedPage.server';
 import ManualPage from './routes/Manual/ManualPage.server';
 import RandomPage from './routes/Random/RandomPage.server';
 import Home from './routes/index.server';
+
 function App() {
   return (
     <Suspense fallback={null}>
