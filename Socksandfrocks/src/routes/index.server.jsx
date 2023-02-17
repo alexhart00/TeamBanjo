@@ -1,3 +1,5 @@
+import { useSession } from "@shopify/hydrogen";
+
 import NavBar from "./Shared/NavBar.server";
 
 import products from "../assets/database/products.json";
@@ -12,6 +14,11 @@ import { Outfit } from "../models/outfit.model";
 
 
 export default function Home() {
+
+  var userToken = getUserToken();
+
+  //currently undefined
+  console.log(userToken);
 
   loadData();
 
@@ -65,3 +72,7 @@ function getTopByID(id){
   return item;
 }
 
+function getUserToken(){
+  const { accessToken } = useSession();
+  return accessToken;
+}
