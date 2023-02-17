@@ -43,3 +43,23 @@
 - Basic Database except photos
 - React issue with routes
 - Outline of React components list
+
+## Week 5 Out of class Work
+### TO DO
+- learn Shopuserqueries
+- make RandomPickoutPage
+- Finish Database photos
+### Done
+- Data Model made
+- Item Detail Box Made
+- Card Components
+
+## Week 6 The Bands Back Together
+### TO DO
+- Intergrate everything done last week
+- Clear Roadblocks for development
+- Distribute tasks
+### Done
+-
+-
+-
