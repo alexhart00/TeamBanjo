@@ -12,11 +12,12 @@ Install Hydrogen copy and past into comand "npm init @shopify/hydrogen"
 Install "MongoDB for VS Code"
 "npm install"
 
+
+Not Needed
 To install tailwind copy and paste into terminal "
 npm install -D tailwindcss @tailwindcss/typography postcss autoprefixer
 npx tailwindcss init -p
 "
-
 Mongo DB
 String connection "mongodb+srv://socksandfrocks-dev:TeamBanjo@sf-rigoutpickout.lbh3rpe.mongodb.net/test"
 

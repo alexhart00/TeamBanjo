@@ -2,7 +2,7 @@ import products from "../../assets/database/products.json"
 
 export default function ItemContainerDetail(item) {
     return(
-          <div class="ml-80"> {/*WHY WON"T IT CENTER :(*/}
+          <div class="ml-96"> {/*WHY WON"T IT CENTER :(*/}
             <div class="p-1 h-2/12 w-6/12 bg-gray-100 border-gray-200 border-8 ">
                   <div class="container flex justify-between mx-auto">
                         <div class="conntainer flex items-center ml-16 ">
