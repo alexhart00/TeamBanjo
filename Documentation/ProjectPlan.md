@@ -60,6 +60,6 @@
 - Clear Roadblocks for development
 - Distribute tasks
 ### Done
--
--
--
+- Intergration of all tasks from last week
+- More photos done for cloths
+- Founds extra tasks to be distributed
