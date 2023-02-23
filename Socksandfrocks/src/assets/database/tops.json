@@ -1,24 +1,28 @@
 [
-    {
-        "_id": {
-          "$oid": "63d84c1c61568f568156cc1c"
-        },
-        "id": "t1",
-        "itemName": "Pink Sweetheart Blouse",
-        "sleeveLength": "Full",
-        "color": "Pink",
-        "pattern": "Solid",
-        "style": [
-          "Dressy",
-          "Professional",
-          "Cute"
-        ],
-        "dressCode": [
-          "Dressy",
-          "Business Casual",
-          "Business Professional"
-        ]
-      },
+  {
+    "_id": {
+      "$oid": "63d84c1c61568f568156cc1c"
+    },
+    "id": "t1",
+    "itemName": "Pink Sweetheart Blouse",
+    "sleeveLength": "Full",
+    "color": "Pink",
+    "pattern": "Solid",
+    "style": [
+      "Dressy",
+      "Professional",
+      "Cute"
+    ],
+    "dressCode": [
+      "Dressy",
+      "Business Casual",
+      "Business Professional"
+    ],
+    "bottom_id": null,
+    "match": null,
+    "top_id": null,
+    "type": null
+  },
       {
         "_id": {
           "$oid": "63d84c6c61568f568156cc1d"
@@ -39,7 +43,12 @@
         "dressCode": [
           "Casual",
           "Business Casual"
-        ]
+        ],
+
+        "bottom_id": null,
+        "match": null,
+        "top_id": null,
+        "type": null
       },
       {
         "_id": {
@@ -57,7 +66,12 @@
         "dressCode": [
           "Casual",
           "Business Casual"
-        ]
+        ],
+
+        "bottom_id": null,
+        "match": null,
+        "top_id": null,
+        "type": null
       },
       {
         "_id": {
@@ -79,7 +93,12 @@
         "dressCode": [
           "Casual",
           "Dressy"
-        ]
+        ],
+
+        "bottom_id": null,
+        "match": null,
+        "top_id": null,
+        "type": null
       },
       {
         "_id": {
@@ -99,6 +118,11 @@
         "dressCode": [
           "Dressy",
           "Business Casual"
-        ]
+        ],
+
+        "bottom_id": null,
+        "match": null,
+        "top_id": null,
+        "type": null
       }
 ]
