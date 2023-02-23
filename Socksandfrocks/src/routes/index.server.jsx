@@ -23,7 +23,7 @@ export default function Home() {
 
   return(
     <div>
-      <NavBar clothingData={serializedData}/>
+      <NavBar clothesData={serializedData}/>
     </div>
   );
 }

@@ -6,13 +6,21 @@ import RandomPageRigout from "../Shared/RandomPageRigout";
 
 export default function RandomPage({clothingData, showComponent}){
 
+    var bottomArray = JSON.parse(clothingData[0]);
+    var topArray = JSON.parse(clothingData[1]);
+    var outfitArray = JSON.parse(clothingData[2]);
+
+    var selectedItem = bottomArray[0];
+
     if(showComponent == true) {
         return(
             <div>
                 RandomPage
+    
+                {/* To add data into this component, make sure you use serialized "clothingData" */}
                 <RandomPageRigout/>
                 feio
-                <ItemContainerDetail/>
+                <ItemContainerDetail item={selectedItem}/>
             </div>
         );
     }
@@ -22,6 +30,5 @@ export default function RandomPage({clothingData, showComponent}){
             <div></div>
         )
     }
-
 
 }

@@ -9,11 +9,11 @@ import RandomPage from '../Random/RandomPage';
 
 export default function NavBar({clothesData}){
 
-    const [isRandomVisible, setIsRandomVisible] = useState(false)
+    const [isRandomVisible, setIsRandomVisible] = useState(false);
 
-    const [isCuratedVisible, setIsCuratedVisible] = useState(false)
+    const [isCuratedVisible, setIsCuratedVisible] = useState(false);
 
-    const [isManualVisible, setIsManualVisible ] = useState(false)
+    const [isManualVisible, setIsManualVisible ] = useState(false);
 
     return(
        <div>
