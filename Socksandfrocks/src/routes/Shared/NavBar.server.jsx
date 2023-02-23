@@ -39,6 +39,7 @@ export default function NavBar(){
                 </div>
             </div>
         </nav>
+        <div><p>&nbsp;</p></div>
        </div>
     );
 }

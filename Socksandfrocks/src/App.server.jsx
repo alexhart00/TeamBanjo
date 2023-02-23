@@ -5,6 +5,7 @@ import {Suspense} from 'react';
 import CuratedPage from './routes/Curated/CuratedPage.server';
 import ManualPage from './routes/Manual/ManualPage.server';
 import RandomPage from './routes/Random/RandomPage.server';
+import RandomPagePart1 from './routes/RandomPart1/RandomPagePart1.server';
 import Home from './routes/index.server';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path='/curated' page={<CuratedPage/>}/>
           <Route path='/manual' page={<ManualPage/>}/>
           <Route path='/random' page={<RandomPage/>}/>
+          <Route path='/randompart1' page={<RandomPagePart1/>}/>
         </Router>
       </ShopifyProvider>
     </Suspense>

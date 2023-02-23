@@ -8,9 +8,8 @@ export default function RandomPage(){
     return(
         <div>
             <NavBar/>
-            RandomPage
             <RandomPageRigout/>
-            feio
+            <ItemContainerDetail/>
             <ItemContainerDetail/>
         </div>
     );

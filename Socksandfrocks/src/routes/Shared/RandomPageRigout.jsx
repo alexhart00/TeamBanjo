@@ -10,32 +10,26 @@ export default function RandomPageRigout(item) {
   const percentagetagline3 = "Creative";
 
     return(
-          <div class="conntainer flex p-8 ml-96 mr-96 grid grid-cols-2 bg-gray-100 border-gray-200 border-8 ">
-            <div class="mr-2">
-                <img class="w-5/12 rounded-lg" src="https://th.bing.com/th/id/R.143ffba217fc81397f5230aff48ca48e?rik=PQ55fFv7BYHY9w&riu=http%3a%2f%2fstylesweekly.com%2fwp-content%2fuploads%2f2016%2f12%2fOutfit-Ideas-for-Women_2017_20.jpg&ehk=9W6sZuHe6ivB0gUN0R3N5HZ4a7CUoICVyDvDIVRJBV4%3d&risl=&pid=ImgRaw&r=0" alt="Item-photo"/>
+      <div class="flex flex-wrap w-6/12 items-center p-8 ml-64 bg-gray-100 border-gray-200 border-8">
+          <div class="flex flex-wrap justify-between mx-auto">
+            <div class="mr-32 ml-2">
+                <img class="rounded-lg object-center" src="https://i.pinimg.com/236x/a8/89/87/a8898773b09b63b9b334c1469f26592c.jpg" alt="Item-photo"/>
             </div>
-            <div class="bg-gray-100 border-gray-200 border-8 justify-items-center font-bold">
-              <ul>
-                <li><h2>{percentagematch}% Match!</h2></li>
-              </ul>
-              <ul>
+            <div class="flex flex-wrap content-center max-h-sm text-center font-bold content-center bg-gray-100 ">
+              <ul class="p-2 border-gray-200 border-8 ">
+                <li><h2>Rigout Pickout</h2></li>
+                <li><h2>has found an outfit</h2></li>
+                <div><p>&nbsp;</p></div>
                 <li>{percentagematchline1}% {percentagetagline1}</li>
-              </ul>
-              <ul>
                 <li>{percentagematchline2}% {percentagetagline2}</li>
-              </ul>
-              <ul>
                 <li>{percentagematchline3}% {percentagetagline3}</li>
+                <div><p>&nbsp;</p></div>
+                <li>
+                  <button type="button" class= "p-3 rounded-full bg-yellow-400 m-auto " onclick="alert('You have added me to cart, Not Really')"><span style={{ fontWeight: 'bold' }}>Add to Cart!</span></button>
+                </li>
               </ul>
-              <ul>
-              <label for="matchpercent">Choice your percentage match! (0-100):</label>
-              <input type="number" id="matchpercent" name="matchpercent" min="0" max="100"></input>
-              </ul>
-              <li class="flex">
-                              {/*placeholder button see https://help.shopify.com/en/manual/online-sales-channels/buy-button/add-embed-code */}
-                                    <button type="button" class= "p-1 rounded-full bg-yellow-400 " onclick="alert('You have added me to cart, Not Really')"><span style={{ fontWeight: 'bold' }}>Add to Cart!</span></button>
-                        </li>
             </div>
           </div>
+        </div>
     );
   }
