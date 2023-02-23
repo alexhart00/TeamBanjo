@@ -1,10 +1,11 @@
 import NavBar from "../Shared/NavBar.server";
+import CuratedPageRigoutPickout from "../Shared/CuratedPageRigoutPickout";
 
 export default function CuratedPage(){
     return(
         <div>
             <NavBar/>
-            CuratedPage
+            <CuratedPageRigoutPickout/>
         </div>
     );
 }

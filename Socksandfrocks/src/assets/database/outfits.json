@@ -1,0 +1,457 @@
+[
+    {
+        "_id": {
+          "$oid": "63d9893b1f3b3b3ae1f235eb"
+        },
+        "id": "o1",
+        "top_id": "t1",
+        "bottom_id": "b1",
+        "color": "Pink",
+        "style": [
+          "Casual",
+          "Cute"
+        ],
+        "dressCode": "Casual"
+      },
+      {
+        "_id": {
+          "$oid": "63d990eb1f3b3b3ae1f235ec"
+        },
+        "id": "o2",
+        "top_id": "t1",
+        "bottom_id": "b2",
+        "color": [
+          "Pink”, “White"
+        ],
+        "style": [
+          "Dressy”, “Professional”, “Cute"
+        ],
+        "dressCode": [
+          "Dressy",
+          "Business Casual"
+        ]
+      },
+      {
+        "_id": {
+          "$oid": "63d991051f3b3b3ae1f235ed"
+        },
+        "id": "o3",
+        "top_id": "t1",
+        "bottom_id": "b3",
+        "color": "Pink",
+        "style": [
+          "Casual",
+          "Cute",
+          "Dressy",
+          "Professional"
+        ],
+        "dressCode": [
+          "Casual",
+          "Dressy",
+          "Business Casual"
+        ]
+      },
+      {
+        "_id": {
+          "$oid": "63d9914a1f3b3b3ae1f235ee"
+        },
+        "id": "o4",
+        "top_id": "t1",
+        "bottom_id": "b4",
+        "color": [
+          "Pink",
+          "Black"
+        ],
+        "style": [
+          "Cute",
+          "Dressy"
+        ],
+        "dressCode": "Dressy"
+      },
+      {
+        "_id": {
+          "$oid": "63d9917c1f3b3b3ae1f235ef"
+        },
+        "id": "o5",
+        "top_id": "t1",
+        "bottom_id": "b5",
+        "color": [
+          "Pink",
+          "Black"
+        ],
+        "style": [
+          "Cute",
+          "Professional"
+        ],
+        "dressCode": "Business Professional"
+      },
+      {
+        "_id": {
+          "$oid": "63d991b51f3b3b3ae1f235f0"
+        },
+        "id": "o6",
+        "top_id": "t2",
+        "bottom_id": "b1",
+        "color": "Multi",
+        "style": [
+          "Casual",
+          "Cool",
+          "Dressy"
+        ],
+        "dressCode": [
+          "Casual",
+          "Dressy"
+        ]
+      },
+      {
+        "_id": {
+          "$oid": "63d991f41f3b3b3ae1f235f1"
+        },
+        "id": "o7",
+        "top_id": "t2",
+        "bottom_id": "b2",
+        "color": [
+          "Multi",
+          "White"
+        ],
+        "style": [
+          "Dressy",
+          "Cool"
+        ],
+        "dressCode": [
+          "Casual",
+          "Dressy",
+          "Business Casual"
+        ]
+      },
+      {
+        "_id": {
+          "$oid": "63d992231f3b3b3ae1f235f2"
+        },
+        "id": "o8",
+        "top_id": "t2",
+        "bottom_id": "b3",
+        "color": "Multi",
+        "style": [
+          "Casual",
+          "Dressy",
+          "Cool"
+        ],
+        "dressCode": [
+          "Casual",
+          "Dressy",
+          "Business Casual"
+        ]
+      },
+      {
+        "_id": {
+          "$oid": "63d992581f3b3b3ae1f235f3"
+        },
+        "id": "o9",
+        "top_id": "t2",
+        "bottom_id": "b4",
+        "color": [
+          "Multi",
+          "Black"
+        ],
+        "style": [
+          "Dressy",
+          "Cool"
+        ],
+        "dressCode": "Dressy"
+      },
+      {
+        "_id": {
+          "$oid": "63d9927d1f3b3b3ae1f235f4"
+        },
+        "id": "o10",
+        "top_id": "t2",
+        "bottom_id": "b5",
+        "color": [
+          "Multi",
+          "Black"
+        ],
+        "style": [
+          "Dressy",
+          "Cool",
+          "Professional"
+        ],
+        "dressCode": "Business Casual"
+      },
+      {
+        "_id": {
+          "$oid": "63d992b21f3b3b3ae1f235f5"
+        },
+        "id": "o11",
+        "top_id": "t3",
+        "bottom_id": "b1",
+        "color": "Turquoise",
+        "style": [
+          "Casual",
+          "Dressy",
+          "Classic"
+        ],
+        "dressCode": [
+          "Casual",
+          "Dressy"
+        ]
+      },
+      {
+        "_id": {
+          "$oid": "63d992ed1f3b3b3ae1f235f6"
+        },
+        "id": "o12",
+        "top_id": "t3",
+        "bottom_id": "b2",
+        "color": [
+          "Turquoise",
+          "White"
+        ],
+        "style": [
+          "Dressy",
+          "Classic"
+        ],
+        "dressCode": [
+          "Dressy",
+          "Business Casual"
+        ]
+      },
+      {
+        "_id": {
+          "$oid": "63d993351f3b3b3ae1f235f8"
+        },
+        "id": "o13",
+        "top_id": "t3",
+        "bottom_id": "b3",
+        "color": "Turquoise",
+        "style": [
+          "Dressy",
+          "Classic"
+        ],
+        "dressCode": [
+          "Dressy",
+          "Business Casual"
+        ]
+      },
+      {
+        "_id": {
+          "$oid": "63d993691f3b3b3ae1f235f9"
+        },
+        "id": "o14",
+        "top_id": "t3",
+        "bottom_id": "b4",
+        "color": [
+          "Turquoise",
+          "Black"
+        ],
+        "style": "Dressy",
+        "dressCode": "Dressy"
+      },
+      {
+        "_id": {
+          "$oid": "63d993901f3b3b3ae1f235fa"
+        },
+        "id": "o15",
+        "top_id": "t3",
+        "bottom_id": "b5",
+        "color": [
+          "Turquoise",
+          "Black"
+        ],
+        "style": [
+          "Classic",
+          "Professional"
+        ],
+        "dressCode": [
+          "Dressy",
+          "Business Casual"
+        ]
+      },
+      {
+        "_id": {
+          "$oid": "63d993c81f3b3b3ae1f235fb"
+        },
+        "id": "o16",
+        "top_id": "t4",
+        "bottom_id": "b1",
+        "color": "Burnt Orange",
+        "style": [
+          "Casual",
+          "Cute",
+          "Classic"
+        ],
+        "dressCode": [
+          "Casual",
+          "Dressy"
+        ]
+      },
+      {
+        "_id": {
+          "$oid": "63d993f51f3b3b3ae1f235fc"
+        },
+        "id": "o17",
+        "top_id": "t4",
+        "bottom_id": "b2",
+        "color": [
+          "Burnt Orange",
+          "White"
+        ],
+        "style": [
+          "Casual",
+          "Cute",
+          "Classic",
+          "Dressy"
+        ],
+        "dressCode": "Dressy"
+      },
+      {
+        "_id": {
+          "$oid": "63d994271f3b3b3ae1f235fd"
+        },
+        "id": "o18",
+        "top_id": "t4",
+        "bottom_id": "b3",
+        "color": "Burnt Orange",
+        "style": [
+          "Casual",
+          "Cute",
+          "Classic",
+          "Dressy"
+        ],
+        "dressCode": "Dressy"
+      },
+      {
+        "_id": {
+          "$oid": "63d994fd1f3b3b3ae1f235ff"
+        },
+        "id": "o19",
+        "top_id": "t4",
+        "bottom_id": "b4",
+        "color": [
+          "Burnt Orange",
+          "Black"
+        ],
+        "style": [
+          "Cute",
+          "Classic",
+          "Dressy"
+        ],
+        "dressCode": "Dressy"
+      },
+      {
+        "_id": {
+          "$oid": "63d995331f3b3b3ae1f23600"
+        },
+        "id": "o20",
+        "top_id": "t4",
+        "bottom_id": "b5",
+        "color": [
+          "Burnt Orange",
+          "Black"
+        ],
+        "style": [
+          "Cute",
+          "Classic",
+          "Dressy",
+          "Professional"
+        ],
+        "dressCode": "Business Casual"
+      },
+      {
+        "_id": {
+          "$oid": "63d996f4778a15a75ecdd78a"
+        },
+        "id": "o21",
+        "top_id": "t5",
+        "bottom_id": "b1",
+        "color": "Maroon",
+        "style": [
+          "Casual",
+          "Classic"
+        ],
+        "dressCode": "Dressy"
+      },
+      {
+        "_id": {
+          "$oid": "63d9970e778a15a75ecdd78b"
+        },
+        "id": "o22",
+        "top_id": "t5",
+        "bottom_id": "b2",
+        "color": [
+          "Maroon",
+          "White"
+        ],
+        "style": [
+          "Cute",
+          "Classic",
+          "Cool",
+          "Dressy"
+        ],
+        "dressCode": [
+          "Casual",
+          "Dressy",
+          "Business Casual"
+        ]
+      },
+      {
+        "_id": {
+          "$oid": "63d9975d778a15a75ecdd78c"
+        },
+        "id": "o23",
+        "top_id": "t5",
+        "bottom_id": "b3",
+        "color": "Maroon",
+        "style": [
+          "Cute",
+          "Classic",
+          "Cool",
+          "Dressy"
+        ],
+        "dressCode": [
+          "Casual",
+          "Dressy",
+          "Business Casual"
+        ]
+      },
+      {
+        "_id": {
+          "$oid": "63d9978f778a15a75ecdd78d"
+        },
+        "id": "o24",
+        "top_id": "t5",
+        "bottom_id": "b4",
+        "color": [
+          "Maroon",
+          "Black"
+        ],
+        "style": [
+          "Cute",
+          "Cool",
+          "Dressy"
+        ],
+        "dressCode": "Dressy"
+      },
+      {
+        "_id": {
+          "$oid": "63d997bf778a15a75ecdd78e"
+        },
+        "id": "o25",
+        "top_id": "t5",
+        "bottom_id": "t5",
+        "color": [
+          "Maroon",
+          "Black"
+        ],
+        "style": [
+          "Classic",
+          "Cool",
+          "Dressy",
+          "Professional"
+        ],
+        "dressCode": [
+          "Dressy",
+          "Business Casual"
+        ]
+      }
+]
