@@ -1,6 +1,7 @@
 import { useSession } from "@shopify/hydrogen";
 
-import NavBar from "./Shared/NavBar.server";
+import NavBar from "./Shared/NavBar.client";
+import RandomPage from "./Random/RandomPage";
 
 import products from "../assets/database/products.json";
 import tops from "../assets/database/tops.json";
@@ -12,25 +13,29 @@ import { Top } from "../models/top.model";
 import { Outfit } from "../models/outfit.model";
 
 
-
 export default function Home() {
 
+  var userToken = getUserToken();
+  //currently undefined
+  console.log(userToken);
+
+  var serializedData = getSerializedData();
+
+  return(
+    <div>
+      <NavBar clothingData={serializedData}/>
+    </div>
+  );
+}
+
+function getSerializedData(){
   var bottomData = getBottoms(); 
   var topData = getTops();
   var outfitData = getOutfits();
 
-  
+  var serializedData = [JSON.stringify(bottomData), JSON.stringify(topData), JSON.stringify(outfitData)];
 
-  var userToken = getUserToken();
-
-  //currently undefined
-  console.log(userToken);
-
-  return(
-    <div>
-      <NavBar/>
-    </div>
-  );
+  return serializedData;
 }
 
 function getBottoms(){
