@@ -15,12 +15,16 @@ import { Outfit } from "../models/outfit.model";
 
 export default function Home() {
 
+  var bottomData = getBottoms(); 
+  var topData = getTops();
+  var outfitData = getOutfits();
+
+  
+
   var userToken = getUserToken();
 
   //currently undefined
   console.log(userToken);
-
-  loadData();
 
   return(
     <div>
@@ -29,29 +33,37 @@ export default function Home() {
   );
 }
 
-function loadData(){
-
+function getBottoms(){
   bottomArray = [];
 
   bottoms.map((product) => {
-    newBottom = new Bottom(product.id, product.itemName, product.type, product.color, product.pattern, product.style, product.dressCode);
+    var newBottom = new Bottom(product.id, product.itemName, product.type, product.color, product.pattern, product.style, product.dressCode);
     bottomArray.push(newBottom);
   });
 
+  return bottomArray;
+}
+
+function getTops(){
   topArray = [];
 
   tops.map((product) => {
-    newTop = new Top(product.id, product.itemName, product.sleeveLength, product.color, product.pattern, product.style, product.dressCode);
+    var newTop = new Top(product.id, product.itemName, product.sleeveLength, product.color, product.pattern, product.style, product.dressCode);
     topArray.push(newTop);
   });
 
+  return topArray;
+}
+
+function getOutfits(){
   outfitArray = [];
 
   outfits.map((outfit) =>{
-    newOutfit = new Outfit(outfit.id, getTopByID(outfit.top_id), getBottomByID(outfit.bottom_id), outfit.color, outfit.style, outfit.dressCode);
+    var newOutfit = new Outfit(outfit.id, getTopByID(outfit.top_id), getBottomByID(outfit.bottom_id), outfit.color, outfit.style, outfit.dressCode);
     outfitArray.push(newOutfit);
   });
 
+  return outfitArray;
 }
 
 function getBottomByID(id){
