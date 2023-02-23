@@ -10,6 +10,8 @@ export default function CuratedPage({clothingData, showComponent}){
         return(
             <div>
                 CuratedPage
+                {/* show data demo -- can delete */}
+                <p>{bottomArray[0].itemName}</p>
             </div>
         );
     }
