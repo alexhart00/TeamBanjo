@@ -1,11 +1,9 @@
-import React from 'react';
 import renderHydrogen from '@shopify/hydrogen/entry-server';
 import {Router, FileRoutes, ShopifyProvider, Route} from '@shopify/hydrogen';
 import {Suspense} from 'react';
-import CuratedPage from './routes/Curated/CuratedPage.server';
-import ManualPage from './routes/Manual/ManualPage.server';
-import RandomPage from './routes/Random/RandomPage.server';
-import RandomPagePart1 from './routes/RandomPart1/RandomPagePart1.server';
+import CuratedPage from './routes/Curated/CuratedPage';
+import ManualPage from './routes/Manual/ManualPage';
+import RandomPage from './routes/Random/RandomPage';
 import Home from './routes/index.server';
 
 function App() {

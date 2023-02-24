@@ -1,19 +1,27 @@
 import products from "../../assets/database/products.json"
 
-export default function ItemContainerDetail(item) {
+export default function ItemContainerDetail({item}) {
     return(
       <div class="ml-96"> {/*WHY WON"T IT CENTER :(*/}
             <div><p>&nbsp;</p></div>
             <div class="p-1 h-2/12 w-6/12 bg-gray-100 border-gray-200 border-8 ">
                   <div class="container flex justify-between mx-auto">
                         <div class="conntainer flex items-center ml-16 ">
-                              <img src={item.photo} alt="Item-photo"/>
+                              {/* No property for image */}
+                              <img src="" alt="Item-photo"/>
                         </div>
                         <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 flex-row space-x-8 md:flex-row md:space-x-8 md:mt-0 md:bg-gray-100">
-                              <li>
+                             <li>
+                       <ul>
+                                    <li>Name</li>
+                                    <li class="p-1 bg-white">{item.itemName}</li>
+                        </ul>
+                       </li>
+                        <li>
                                     <ul>
-                                          <li>Price</li>
-                                          <li class="p-1 bg-white">$placeholder{item.price}</li>
+                                          {/* No property for price */}
+                                    <li>Price</li>
+                                          <li class="p-1 bg-white">$placeholder</li>
                                     </ul>
                               </li>
                               <li>
