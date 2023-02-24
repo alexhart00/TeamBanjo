@@ -1,7 +1,6 @@
 import { useSession } from "@shopify/hydrogen";
 
 import NavBar from "./Shared/NavBar.client";
-import RandomPage from "./Random/RandomPage";
 
 import products from "../assets/database/products.json";
 import tops from "../assets/database/tops.json";

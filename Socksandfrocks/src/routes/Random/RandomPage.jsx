@@ -16,10 +16,8 @@ export default function RandomPage({clothingData, showComponent}){
         return(
             <div>
                 RandomPage
-    
-                {/* To add data into this component, make sure you use serialized "clothingData" */}
                 <RandomPageRigout/>
-                feio
+                <ItemContainerDetail item={selectedItem}/>
                 <ItemContainerDetail item={selectedItem}/>
             </div>
         );
