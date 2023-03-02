@@ -2,31 +2,47 @@ import NavBar from "../Shared/NavBar.client";
 import ItemDetails from "../Shared/ItemDetails";
 import ItemContainerDetail from "../Shared/ItemContainerDetail";
 import RandomPageRigout from "../Shared/RandomPageRigout";
-
+import RandomPageRigoutPart1 from "../Shared/RandomPageRigoutPart1";
+import React, { useState } from "react";
 
 export default function RandomPage({clothingData, showComponent}){
-
+    const [randomNum, setRandomNum] = useState(5);
+    
+    const handleRandomNum = () => {
+        setRandomNum(Math.random(25))
+    };
     var bottomArray = JSON.parse(clothingData[0]);
     var topArray = JSON.parse(clothingData[1]);
     var outfitArray = JSON.parse(clothingData[2]);
 
     var selectedItem = bottomArray[0];
 
-    if(showComponent == true) {
+    var [percentageMatch, setPercentageMatch] = useState('0');
+    var [Part2Flag, setFlagVisible] = useState(false);
+    
+    if(showComponent == true && Part2Flag == false) {
         return(
             <div>
-                RandomPage
-                <RandomPageRigout/>
-                <ItemContainerDetail item={selectedItem}/>
-                <ItemContainerDetail item={selectedItem}/>
+                RandomPagePart1
+                <RandomPageRigoutPart1 flag={setFlagVisible} percentageMatch={setPercentageMatch}/>
             </div>
         );
     }
-
+    if(showComponent == true && Part2Flag == true){
+        return(
+            <div>
+            RandomPagePart2
+            <RandomPageRigout percentageMatch={percentageMatch}/>
+            <ItemContainerDetail item={selectedItem}/>
+            <ItemContainerDetail item={selectedItem}/>
+            </div>
+        );
+    }        
     else{
         return(
-            <div></div>
-        )
+            <div>
+            </div>
+        );
     }
 
 }

@@ -1,6 +1,6 @@
 import products from "../../assets/database/products.json"
 
-export default function RandomPageRigout() {
+export default function RandomPageRigout({flag}, {percentageMatch}) {
     return(
       <div class="flex flex-wrap w-6/12 items-center p-8 ml-64 bg-gray-100 border-gray-200 border-8">
           <div class="flex flex-wrap justify-between mx-auto">
@@ -11,13 +11,12 @@ export default function RandomPageRigout() {
             <ul class="p-2 border-gray-200 border-8 ">
                   <li>
                     <p>Choice your percentage match!</p>
-                    <label for="matchpercent"> (0-100):</label>
-                    <input type="number" id="matchpercent" name="matchpercent" min="0" max="100"></input>
+                    <label for="percentageMatch"> (0-100):</label>
+                    <input onChange={e => percentageMatch(e.target.value)} type="number" min="0" max="100"></input>
                     <div><p>&nbsp;</p></div>
-                    {/*Don't know how to sent input matchpercent to another react component we will need to revisit this*/}
                   </li>
                   <li>
-                        <a href="/random" class="p-3 bg-yellow-400 m-auto">Randomize My Outfit</a>
+                    <button class="p-3 bg-yellow-400 m-auto"  onClick={() => {flag(true)} }>Randomize My Outfit</button>
                   </li>
                   <div><p>&nbsp;</p></div>
                 </ul>

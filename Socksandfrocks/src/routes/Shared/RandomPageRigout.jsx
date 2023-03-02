@@ -1,7 +1,6 @@
 import products from "../../assets/database/products.json"
 
-export default function RandomPageRigout(item) {
-  const percentagematch = 98;
+export default function RandomPageRigout({item}, {percentageMatch}) {
   const percentagematchline1 = 98;
   const percentagematchline2 = 76;
   const percentagematchline3 = 68;
@@ -18,7 +17,7 @@ export default function RandomPageRigout(item) {
             <div class="flex flex-wrap content-center max-h-sm text-center font-bold content-center bg-gray-100 ">
               <ul class="p-2 border-gray-200 border-8 ">
                 <li><h2>Rigout Pickout</h2></li>
-                <li><h2>has found an outfit</h2></li>
+                <li><h2>has found an outfit with {percentageMatch}</h2></li>
                 <div><p>&nbsp;</p></div>
                 <li>{percentagematchline1}% {percentagetagline1}</li>
                 <li>{percentagematchline2}% {percentagetagline2}</li>
