@@ -20,8 +20,7 @@ export default function CuratedPageRigout({URl}) {
                 </div>
             <div class="flex flex-wrap content-center max-h-sm text-center font-bold content-center bg-gray-100 ">
               <ul class="p-2 border-gray-200 border-8 ">
-                <li>Rigout Pickout has</li>
-                <li>found an outfit with</li>
+                <li>This outfit has a</li>
                 <li>a {percentageMatch}% Match</li>
                 <div><p>&nbsp;</p></div>
                 <li>{percentagematchline1}% {percentagetagline1}</li>
@@ -29,7 +28,7 @@ export default function CuratedPageRigout({URl}) {
                 <li>{percentagematchline3}% {percentagetagline3}</li>
                 <div><p>&nbsp;</p></div>
                 <li>
-                  <button type="button" class= "p-3 rounded-full bg-yellow-400 m-auto " onclick="alert('You have added me to cart, Not Really')"><span style={{ fontWeight: 'bold' }}>Add to Cart!</span></button>
+                  <button type="button" class= "p-3 rounded-full bg-yellow-400 m-auto " onclick="alert('You have added me to cart, Not Really')"><span style={{ fontWeight: 'bold' }}>Add Outfit to Cart!</span></button>
                 </li>
               </ul>
             </div>
