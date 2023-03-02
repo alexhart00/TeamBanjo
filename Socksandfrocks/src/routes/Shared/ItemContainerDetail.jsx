@@ -4,7 +4,7 @@ export default function ItemContainerDetail({item}) {
     return(
       <div class="centerDiv">
             <div><p>&nbsp;</p></div>
-            <div class="p-1 h-2/12 w-11/12 bg-gray-100 border-gray-200 border-8 mx-auto">
+            <div class="p-1 h-2/12 w-11/12 bg-gray-100 border-gray-200 border-8 mx-auto shadow-lg">
                   <div class="container flex justify-between mx-auto">
                         <div class="conntainer flex items-center ml-16 ">
                               {/* No property for image */}

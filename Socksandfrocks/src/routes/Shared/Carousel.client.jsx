@@ -21,7 +21,7 @@ export default function ItemCarousel({imgUrls}){
       background: linear-gradient(to right, #00FFFF, #A020F0);
       border-radius: 10px;
       width: 190px; // 200px - margin(5px + 5px)
-      height: 400px;
+      height: 200px;
       `;
       const items = imgUrls.map ((card) => (
         <Item><img src={card}></img></Item>

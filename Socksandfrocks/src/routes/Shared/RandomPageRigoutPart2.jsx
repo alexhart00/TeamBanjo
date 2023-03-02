@@ -9,13 +9,13 @@ export default function RandomPageRigoutPart2({percentageMatch}) {
   const percentagetagline3 = "Creative";
 
     return(
-      <div class="flex flex-wrap w-6/12 items-center p-8 bg-gray-100 border-gray-200 border-8 content-center centerDiv">
+      <div class="flex flex-wrap w-6/12 items-center p-8 bg-gray-100 border-gray-200 border-8 content-center centerDiv shadow-lg">
           <div class="flex flex-wrap justify-between mx-auto">
             <div class="mr-32 ml-2">
                 <img class="rounded-lg object-center" src="https://i.pinimg.com/236x/a8/89/87/a8898773b09b63b9b334c1469f26592c.jpg" alt="Item-photo"/>
             </div>
             <div class="flex flex-wrap content-center max-h-sm text-center font-bold content-center bg-gray-100 ">
-              <ul class="p-2 border-gray-200 border-8 ">
+              <ul class="p-2 border-gray-200 border-8 shadow-lg">
                 <li>Rigout Pickout has</li>
                 <li>found an outfit with</li>
                 <li>a {percentageMatch}% Match</li>
