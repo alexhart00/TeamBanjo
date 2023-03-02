@@ -1,6 +1,6 @@
 import NavBar from "../Shared/NavBar.client";
 import ItemContainerDetail from "../Shared/ItemContainerDetail";
-import RandomPageRigout from "../Shared/RandomPageRigout";
+import RandomPageRigoutPart2 from "../Shared/RandomPageRigoutPart2";
 import RandomPageRigoutPart1 from "../Shared/RandomPageRigoutPart1";
 import React, { useState } from "react";
 
@@ -31,7 +31,7 @@ export default function RandomPage({clothingData, showComponent}){
         return(
             <div>
             RandomPagePart2
-            <RandomPageRigout percentageMatch={percentageMatch}/>
+            <RandomPageRigoutPart2 percentageMatch={percentageMatch}/>
             <ItemContainerDetail item={selectedItem}/>
             <ItemContainerDetail item={selectedItem}/>
             </div>

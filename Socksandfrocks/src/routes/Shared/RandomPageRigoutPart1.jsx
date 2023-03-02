@@ -1,6 +1,6 @@
 import products from "../../assets/database/products.json"
 
-export default function RandomPageRigout({flag}, {percentageMatch}) {
+export default function RandomPageRigoutPart1({flag}, {percentageMatch}) {
     return(
       <div class="flex flex-wrap w-6/12 items-center p-8 bg-gray-100 border-gray-200 border-8 content-center centerDiv">
           <div class="flex flex-wrap justify-between mx-auto">
