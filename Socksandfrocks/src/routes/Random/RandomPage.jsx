@@ -1,5 +1,4 @@
 import NavBar from "../Shared/NavBar.client";
-import ItemDetails from "../Shared/ItemDetails";
 import ItemContainerDetail from "../Shared/ItemContainerDetail";
 import RandomPageRigout from "../Shared/RandomPageRigout";
 import RandomPageRigoutPart1 from "../Shared/RandomPageRigoutPart1";
@@ -17,7 +16,7 @@ export default function RandomPage({clothingData, showComponent}){
 
     var selectedItem = bottomArray[0];
 
-    var [percentageMatch, setPercentageMatch] = useState('0');
+    var [percentageMatch, setPercentageMatch] = useState('90');
     var [Part2Flag, setFlagVisible] = useState(false);
     
     if(showComponent == true && Part2Flag == false) {
