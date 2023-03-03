@@ -1,6 +1,6 @@
 import products from "../../assets/database/products.json"
 
-export default function RandomPageRigoutPart1({flag}, {percentageMatch}) {
+export default function RandomPageRigoutPart1({flag, percentageMatch, setPercentageMatch}) {
     return(
       <div class="flex flex-wrap w-6/12 items-center p-8 bg-gray-100 border-gray-200 border-8 content-center centerDiv shadow-lg">
           <div class="flex flex-wrap justify-between mx-auto">
@@ -12,7 +12,7 @@ export default function RandomPageRigoutPart1({flag}, {percentageMatch}) {
                   <li>
                     <p>Choice your percentage match!</p>
                     <label for="percentageMatch"> (0-100):</label>
-                    <input onChange={e => percentageMatch(e.target.value)} type="number" min="0" max="100"></input>
+                    <input value={percentageMatch} name="percentageMatch" onChange={e => setPercentageMatch(e.target.value)} type="number" min="0" max="100"></input>
                     <div><p>&nbsp;</p></div>
                   </li>
                   <li>
