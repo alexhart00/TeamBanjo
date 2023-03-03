@@ -5,8 +5,8 @@ export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArr
 
   // dummy variables for selected tops and bottoms 
   //Will have to create algorithm to grab these objects based on current URL displayed in carousel
-  selectedTop = topArray[0];
-  selectedBottom = bottomArray[0];
+  var selectedTop = topArray[0];
+  var selectedBottom = bottomArray[0];
 
   const percentageMatch = 90
 
