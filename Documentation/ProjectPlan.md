@@ -63,3 +63,24 @@
 - Intergration of all tasks from last week
 - More photos done for cloths
 - Founds extra tasks to be distributed
+
+## Week 7 PIZZA PARTY
+### TO DO
+- Eat Pizza (Kalya brought pizza)
+- Create a backup
+- Create Carousel
+### Done
+- Ate Pizza
+- Walk through backend data structure
+- Tasks for next week assigned
+
+## Week 8 glow up
+### TO DO
+- Get data to past to shared components
+- Database updates and intgration
+- Setup offical out of class meeting times
+### Done
+- Manual, Random, and Curated Pages skeleton done
+- Carousel Created and implemented
+- Rename Some Stuff
+- Create Backup
