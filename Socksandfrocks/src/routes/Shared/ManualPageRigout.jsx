@@ -1,7 +1,17 @@
 import products from "../../assets/database/products.json"
+import { Outfit } from "../../models/outfit.model";
 import ItemCarousel from "./Carousel.client";
 
-export default function ManualPageRigout({URlTop, URlBottom}) {
+export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArray, outfitArray}) {
+
+  // dummy variables for selected tops and bottoms 
+  //Will have to create algorithm to grab these objects based on current URL displayed in carousel
+  var outfitArray = outfitArray;
+  var selectedTop = topArray[0];
+  var selectedBottom = bottomArray[0];
+
+  var selectedOutfit = findOutfit(selectedTop, selectedBottom, outfitArray);
+
   const percentageMatch = 90
 
     return(
@@ -12,7 +22,7 @@ export default function ManualPageRigout({URlTop, URlBottom}) {
           <div class="row-span-2 flex flex-wrap content-center text-center font-bold content-center bg-gray-100">
               <ul class="m-4 p-2 border-gray-200 border-8 shadow-lg">
                 <div class="border-gray-200 border-8">
-                    <li>This outfit has a</li>
+                    <li>This outfit, {selectedOutfit.id} has a</li>
                     <li>a {percentageMatch}% Match</li>
                 </div>
                 <div class="border-gray-200 border-8 content-center">
@@ -66,4 +76,28 @@ export default function ManualPageRigout({URlTop, URlBottom}) {
             </div>
       </div>
     );
+  }
+
+
+  function findOutfit(top, bottom, outfits){
+
+    var outfitFound = new Outfit(); 
+
+    var topString = JSON.stringify(top);
+    var bottomString = JSON.stringify(bottom);  
+
+    for(let o=0; o < outfits.length; o++){
+
+      var outfitTopString = JSON.stringify(outfits[o].top);
+      var outfitBottomString = JSON.stringify(outfits[o].bottom);
+
+      console.log(outfitTopString == topString);
+
+      if((outfitTopString == topString && outfitBottomString == bottomString)){
+        outfitFound = outfits[o];
+      }
+    }
+
+    return outfitFound;
+
   }
