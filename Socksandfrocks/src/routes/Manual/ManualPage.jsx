@@ -34,6 +34,7 @@ export default function ManualPage({clothingData, showComponent}){
                  URlBottom={bottomImages}
                  topArray={topArray}
                  bottomArray={bottomArray}
+                 outfitArray={outfitArray}
                  />
                  <ItemContainerDetail item={selectedItem}/>
                  <ItemContainerDetail item={selectedItem}/>
