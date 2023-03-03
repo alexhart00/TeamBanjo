@@ -22,6 +22,7 @@ export default function ManualPageRigout({URlTop, URlBottom}) {
                     <li>
                   <label for="Style">Style:</label>
                     <select name="Style" id="Style">
+                    <option value=""></option>
                     <option value="Professional">Professional</option>
                       <option value="Casual">Casual</option>
                       <option value="Cute">Cute</option>
@@ -34,7 +35,8 @@ export default function ManualPageRigout({URlTop, URlBottom}) {
                 </li>
                 <li>
                   <label for="Pattern">Pattern:</label>
-                    <select name="Pattern" id="Pattern">                
+                    <select name="Pattern" id="Pattern">   
+                    <option value=""></option>             
                       <option value="volvo">Solid</option>
                       <option value="saab">Plaid</option>
                       <option value="mercedes">Polka dot</option>
@@ -45,6 +47,7 @@ export default function ManualPageRigout({URlTop, URlBottom}) {
                 <li>
                   <label for="Dress Code">Dress Code:</label>
                     <select name="Dress Code" id="Dress Code">
+                    <option value=""></option>
                       <option value="volvo">Casual</option>
                       <option value="volvo">Dressy</option>
                       <option value="saab">Business Casual</option>
