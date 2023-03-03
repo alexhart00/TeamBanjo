@@ -6,6 +6,7 @@
         "id": "o1",
         "top_id": "t1",
         "bottom_id": "b1",
+        "photoUrl": "",
         "color": "Pink",
         "style": [
           "Casual",
@@ -20,6 +21,7 @@
         "id": "o2",
         "top_id": "t1",
         "bottom_id": "b2",
+        "photoUrl": "",
         "color": [
           "Pink”, “White"
         ],
@@ -38,6 +40,7 @@
         "id": "o3",
         "top_id": "t1",
         "bottom_id": "b3",
+        "photoUrl": "",
         "color": "Pink",
         "style": [
           "Casual",
@@ -58,6 +61,7 @@
         "id": "o4",
         "top_id": "t1",
         "bottom_id": "b4",
+        "photoUrl": "",
         "color": [
           "Pink",
           "Black"
@@ -75,6 +79,7 @@
         "id": "o5",
         "top_id": "t1",
         "bottom_id": "b5",
+        "photoUrl": "",
         "color": [
           "Pink",
           "Black"
@@ -92,6 +97,7 @@
         "id": "o6",
         "top_id": "t2",
         "bottom_id": "b1",
+        "photoUrl": "",
         "color": "Multi",
         "style": [
           "Casual",
@@ -110,6 +116,7 @@
         "id": "o7",
         "top_id": "t2",
         "bottom_id": "b2",
+        "photoUrl": "",
         "color": [
           "Multi",
           "White"
@@ -131,6 +138,7 @@
         "id": "o8",
         "top_id": "t2",
         "bottom_id": "b3",
+        "photoUrl": "",
         "color": "Multi",
         "style": [
           "Casual",
@@ -150,6 +158,7 @@
         "id": "o9",
         "top_id": "t2",
         "bottom_id": "b4",
+        "photoUrl": "",
         "color": [
           "Multi",
           "Black"
@@ -167,6 +176,7 @@
         "id": "o10",
         "top_id": "t2",
         "bottom_id": "b5",
+        "photoUrl": "",
         "color": [
           "Multi",
           "Black"
@@ -185,6 +195,7 @@
         "id": "o11",
         "top_id": "t3",
         "bottom_id": "b1",
+        "photoUrl": "",
         "color": "Turquoise",
         "style": [
           "Casual",
@@ -203,6 +214,7 @@
         "id": "o12",
         "top_id": "t3",
         "bottom_id": "b2",
+        "photoUrl": "",
         "color": [
           "Turquoise",
           "White"
@@ -223,6 +235,7 @@
         "id": "o13",
         "top_id": "t3",
         "bottom_id": "b3",
+        "photoUrl": "",
         "color": "Turquoise",
         "style": [
           "Dressy",
@@ -240,6 +253,7 @@
         "id": "o14",
         "top_id": "t3",
         "bottom_id": "b4",
+        "photoUrl": "",
         "color": [
           "Turquoise",
           "Black"
@@ -254,6 +268,7 @@
         "id": "o15",
         "top_id": "t3",
         "bottom_id": "b5",
+        "photoUrl": "",
         "color": [
           "Turquoise",
           "Black"
@@ -274,6 +289,7 @@
         "id": "o16",
         "top_id": "t4",
         "bottom_id": "b1",
+        "photoUrl": "",
         "color": "Burnt Orange",
         "style": [
           "Casual",
@@ -292,6 +308,7 @@
         "id": "o17",
         "top_id": "t4",
         "bottom_id": "b2",
+        "photoUrl": "",
         "color": [
           "Burnt Orange",
           "White"
@@ -311,6 +328,7 @@
         "id": "o18",
         "top_id": "t4",
         "bottom_id": "b3",
+        "photoUrl": "",
         "color": "Burnt Orange",
         "style": [
           "Casual",
@@ -327,6 +345,7 @@
         "id": "o19",
         "top_id": "t4",
         "bottom_id": "b4",
+        "photoUrl": "",
         "color": [
           "Burnt Orange",
           "Black"
@@ -345,6 +364,7 @@
         "id": "o20",
         "top_id": "t4",
         "bottom_id": "b5",
+        "photoUrl": "",
         "color": [
           "Burnt Orange",
           "Black"
@@ -364,6 +384,7 @@
         "id": "o21",
         "top_id": "t5",
         "bottom_id": "b1",
+        "photoUrl": "",
         "color": "Maroon",
         "style": [
           "Casual",
@@ -378,6 +399,7 @@
         "id": "o22",
         "top_id": "t5",
         "bottom_id": "b2",
+        "photoUrl": "",
         "color": [
           "Maroon",
           "White"
@@ -401,6 +423,7 @@
         "id": "o23",
         "top_id": "t5",
         "bottom_id": "b3",
+        "photoUrl": "",
         "color": "Maroon",
         "style": [
           "Cute",
@@ -421,6 +444,7 @@
         "id": "o24",
         "top_id": "t5",
         "bottom_id": "b4",
+        "photoUrl": "",
         "color": [
           "Maroon",
           "Black"
@@ -439,6 +463,7 @@
         "id": "o25",
         "top_id": "t5",
         "bottom_id": "t5",
+        "photoUrl": "",
         "color": [
           "Maroon",
           "Black"

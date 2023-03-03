@@ -9,9 +9,10 @@ export class Bottom{
     // style : string []
     // dressCode : string []
 
-    constructor(id, itemName, type, color, pattern, style, dressCode){
+    constructor(id, itemName, photoUrl, type, color, pattern, style, dressCode){
         this.id = id != null ? id : '';
         this.itemName = itemName != null ? itemName: '';
+        this.photoUrl = photoUrl != null ? photoUrl: '';
         this.type = type != null ? type : '';
         this.color = color != null ? color : '';
         this.pattern = pattern !=  null ? pattern : '';

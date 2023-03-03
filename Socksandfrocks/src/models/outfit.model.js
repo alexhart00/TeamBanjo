@@ -10,10 +10,11 @@ export class Outfit{
     // style : string []
     // dressCode : string []
 
-    constructor(id, top, bottom, color, style, dressCode){
+    constructor(id, top, bottom, photoUrl, color, style, dressCode){
         this.id = id != null ? id : '';
         this.top = top != null ? top : new Top();
         this.bottom = bottom != null ? bottom : new Bottom();
+        this.photoUrl = this.photoUrl != null ? photoURl: '';
         this.color = color != null ? color : '';
         this.style = style != null ? style : [''];
         this.dressCode = dressCode != null ? dressCode : [''];

@@ -10,6 +10,7 @@ export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArr
   var selectedTop = topArray[0];
   var selectedBottom = bottomArray[0];
 
+  //next step would be displaying all outfit properties 
   var selectedOutfit = findOutfit(selectedTop, selectedBottom, outfitArray);
 
   const percentageMatch = 90

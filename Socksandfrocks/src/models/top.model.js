@@ -8,9 +8,10 @@ export class Top{
     // style : string []
     // dressCode : string []
 
-    constructor(id, itemName, sleeveLength, color, pattern, style, dressCode){
+    constructor(id, itemName, photoUrl, sleeveLength, color, pattern, style, dressCode){
         this.id = id != null ? id : '';
         this.itemName = itemName != null ? itemName: '';
+        this.photoUrl = photoUrl != null ? photoUrl: '';
         this.sleeveLength = sleeveLength != null ? sleeveLength : '';
         this.color = color != null ? color : '';
         this.pattern = pattern !=  null ? pattern : '';
