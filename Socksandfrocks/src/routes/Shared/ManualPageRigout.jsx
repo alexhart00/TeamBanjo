@@ -1,19 +1,22 @@
 import products from "../../assets/database/products.json"
+import { Bottom } from "../../models/bottom.model";
 import { Outfit } from "../../models/outfit.model";
+import { Top } from "../../models/top.model";
 import ItemCarousel from "./Carousel.client";
 
 export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArray, outfitArray}) {
 
-  // dummy variables for selected tops and bottoms 
-  //Will have to create algorithm to grab these objects based on current URL displayed in carousel
   var outfitArray = outfitArray;
-  var selectedTop = topArray[0];
-  var selectedBottom = bottomArray[0];
+
+  //Will replace first parameter of both with selected url from carousel
+  //Bottom getBottom currently using dummy urls in JSON
+  var selectedTop = getTop(topArray[0].photoUrl, topArray);
+  var selectedBottom = getBottom(bottomArray[0].photoUrl, bottomArray);
 
   //next step would be displaying all outfit properties 
   var selectedOutfit = findOutfit(selectedTop, selectedBottom, outfitArray);
 
-  const percentageMatch = 90
+  const percentageMatch = 90;
 
     return(
       <div class="grid grid-cols-2 flex flex-wrap w-6/12 items-center p-8 bg-gray-100 border-gray-200 border-8 content-center centerDiv shadow-lg">
@@ -100,5 +103,33 @@ export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArr
     }
 
     return outfitFound;
+
+  }
+
+  function getTop(topUrl, array){
+
+    var selectedTop = new Top();
+
+    for(let i = 0; i < array.length; i++){
+      if(array[i].photoUrl == topUrl){
+        selectedTop = array[i];
+      }
+    }
+
+    return selectedTop;
+
+  }
+
+  function getBottom(bottomUrl, array){
+
+    var selectedBottom = new Bottom();
+
+    for(let i = 0; i < array.length; i++){
+      if(array[i].photoUrl == bottomUrl){
+        selectedBottom = array[i];
+      }
+    }
+
+    return selectedBottom;
 
   }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Carousel from '@somedaycode/react-carousel';
 import styled from 'styled-components';
 
