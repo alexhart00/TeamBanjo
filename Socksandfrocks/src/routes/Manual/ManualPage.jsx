@@ -29,7 +29,12 @@ export default function ManualPage({clothingData, showComponent}){
                  <p>Manual Page</p>
                  {/* <ItemCarousel imgUrls={topImages}/> */}
                  {/* <ItemCarousel imgUrls={bottomImages}/> */}
-                 <ManualPageRigout URlTop={topImages} URlBottom={bottomImages}/>
+                 <ManualPageRigout 
+                 URlTop={topImages}
+                 URlBottom={bottomImages}
+                 topArray={topArray}
+                 bottomArray={bottomArray}
+                 />
                  <ItemContainerDetail item={selectedItem}/>
                  <ItemContainerDetail item={selectedItem}/>
 
