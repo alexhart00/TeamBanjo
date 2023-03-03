@@ -44,7 +44,7 @@
 - React issue with routes
 - Outline of React components list
 
-## Week 5 Out of class Work
+## Week 5 - Out of class Work
 ### TO DO
 - learn Shopuserqueries
 - make RandomPickoutPage
@@ -54,7 +54,7 @@
 - Item Detail Box Made
 - Card Components
 
-## Week 6 The Bands Back Together
+## Week 6 - The Bands Back Together
 ### TO DO
 - Intergrate everything done last week
 - Clear Roadblocks for development
@@ -64,7 +64,7 @@
 - More photos done for cloths
 - Founds extra tasks to be distributed
 
-## Week 7 PIZZA PARTY
+## Week 7 - PIZZA PARTY
 ### TO DO
 - Eat Pizza (Kalya brought pizza)
 - Create a backup
@@ -74,7 +74,7 @@
 - Walk through backend data structure
 - Tasks for next week assigned
 
-## Week 8 glow up
+## Week 8 - glow up
 ### TO DO
 - Get data to past to shared components
 - Database updates and intgration
