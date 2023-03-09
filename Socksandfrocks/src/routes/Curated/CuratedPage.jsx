@@ -10,6 +10,7 @@ export default function CuratedPage({clothingData, showComponent}){
     var topArray = JSON.parse(clothingData[1]);
     var outfitArray = JSON.parse(clothingData[2]);
 
+    var outfitImages = getImages(outfitArray);
     var topImages = getImages(topArray);
     var bottomImages = getImages(bottomArray);
     var selectedItem = bottomArray[0];
@@ -18,7 +19,7 @@ export default function CuratedPage({clothingData, showComponent}){
         return(
             <div>
                 CuratedPage
-                <CuratedPageRigout URl={topImages}/>
+                <CuratedPageRigout URlOutfit={outfitImages}/>
                 <ItemContainerDetail item={selectedItem}/>
                 <ItemContainerDetail item={selectedItem}/>
             </div>
