@@ -30,9 +30,6 @@ export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArr
                     <li>a {percentageMatch}% Match</li>
                 </div>
                 <div class="border-gray-200 border-8 content-center">
-<<<<<<< HEAD
-                    <img class="rounded-lg object-center max-h-52 m-auto" src={selectedOutfit.url} alt="Item-photo"/>
-=======
                     <img class="rounded-lg object-center max-h-52 m-auto" src={selectedOutfit.photoUrl} alt="Item-photo"/>
                 </div>
                 <div class="border-gray-200 border-8">
@@ -72,7 +69,6 @@ export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArr
                       <option value="audi">Black Tie/Cocktail</option>
                     </select>
                 </li>
->>>>>>> 23bfeca7f3557ce88eeae938d62b3b89312ed902
                 </div>
                 <div class="border-gray-200 border-8">
                 <button type="button" class= "m-4 p-5 rounded-full bg-yellow-400 m-auto " onclick="alert('You have added me to cart, Not Really')"><span style={{ fontWeight: 'bold' }}>Pick Out</span></button>
