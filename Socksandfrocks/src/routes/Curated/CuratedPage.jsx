@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import NavBar from "../Shared/NavBar.client";
 import CuratedPageRigout from "../Shared/CuratedPageRigout";
+import CuratedPageRigoutPart2 from "../Shared/CuratedPageRigoutPart2";
 import ItemContainerDetail from "../Shared/ItemContainerDetail";
 
 export default function CuratedPage({clothingData, showComponent}){
@@ -29,7 +30,7 @@ export default function CuratedPage({clothingData, showComponent}){
         return(
             <div>
             CuratedPage
-            <CuratedPageRigout URlOutfit={outfitImages}/>
+            <CuratedPageRigoutPart2 flag={setFlagVisible} URlOutfit={outfitImages}/>
             <ItemContainerDetail item={selectedItem}/>
             <ItemContainerDetail item={selectedItem}/>
             </div>

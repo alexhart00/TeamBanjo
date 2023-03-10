@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ItemCarousel from "../Shared/Carousel.client";
 import ManualPageRigout from "../Shared/ManualPageRigout";
+import ManualPageRigoutPart2 from "../Shared/ManualPageRigoutPart2";
 import ItemContainerDetail from "../Shared/ItemContainerDetail";
 
 
@@ -41,12 +42,13 @@ export default function ManualPage({clothingData, showComponent}){
             <p>Manual Page</p>
                  {/* <ItemCarousel imgUrls={topImages}/> */}
                  {/* <ItemCarousel imgUrls={bottomImages}/> */}
-                 <ManualPageRigout 
+                 <ManualPageRigoutPart2 
                  URlTop={topImages}
                  URlBottom={bottomImages}
                  topArray={topArray}
                  bottomArray={bottomArray}
                  outfitArray={outfitArray}
+                 flag = {setFlagVisible}
                  />
                  <ItemContainerDetail item={selectedItem}/>
                  <ItemContainerDetail item={selectedItem}/>
