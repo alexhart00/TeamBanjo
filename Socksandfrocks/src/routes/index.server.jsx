@@ -63,7 +63,7 @@ function getOutfits(){
   outfitArray = [];
 
   outfits.map((outfit) =>{
-    var newOutfit = new Outfit(outfit.id, getTopByID(outfit.top_id), getBottomByID(outfit.bottom_id), outfit.color, outfit.style, outfit.dressCode);
+    var newOutfit = new Outfit(outfit.id, getTopByID(outfit.top_id), getBottomByID(outfit.bottom_id), outfit.photoUrl, outfit.color, outfit.style, outfit.dressCode);
     outfitArray.push(newOutfit);
   });
 

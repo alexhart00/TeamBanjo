@@ -30,7 +30,7 @@ export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArr
                     <li>a {percentageMatch}% Match</li>
                 </div>
                 <div class="border-gray-200 border-8 content-center">
-                    <img class="rounded-lg object-center max-h-52 m-auto" src="https://i.pinimg.com/236x/a8/89/87/a8898773b09b63b9b334c1469f26592c.jpg" alt="Item-photo"/>
+                    <img class="rounded-lg object-center max-h-52 m-auto" src={selectedOutfit.photoUrl} alt="Item-photo"/>
                 </div>
                 <div class="border-gray-200 border-8">
                     <li>

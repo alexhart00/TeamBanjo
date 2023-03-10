@@ -14,7 +14,7 @@ export class Outfit{
         this.id = id != null ? id : '';
         this.top = top != null ? top : new Top();
         this.bottom = bottom != null ? bottom : new Bottom();
-        this.photoUrl = this.photoUrl != null ? photoURl: '';
+        this.photoUrl = photoUrl != null ? photoUrl: '';
         this.color = color != null ? color : '';
         this.style = style != null ? style : [''];
         this.dressCode = dressCode != null ? dressCode : [''];
