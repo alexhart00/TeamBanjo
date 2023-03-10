@@ -84,3 +84,12 @@
 - Carousel Created and implemented
 - Rename Some Stuff
 - Create Backup
+
+## Week 9 - Attack of the 50ft Software Monster
+### TO DO
+- Set new tasks 
+- Create home Page for main page
+- Move some things around from curated and manual
+### Done
+- Try to fix software issues
+- Update some UI stuff
