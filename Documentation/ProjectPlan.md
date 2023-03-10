@@ -90,8 +90,6 @@
 - Set new tasks 
 - Create home Page for main page
 - Move some things around from curated and manual
-- 
 ### Done
 - Try to fix software issues
-- 
-- 
+- Update some UI stuff
