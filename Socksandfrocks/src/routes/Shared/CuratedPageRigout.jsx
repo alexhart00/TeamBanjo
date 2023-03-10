@@ -3,7 +3,7 @@ import ItemCarousel from '../Shared/Carousel.client';
 import Carousel from '@somedaycode/react-carousel';
 import styled from 'styled-components';
 
-export default function CuratedPageRigout({URlOutfit}) {
+export default function CuratedPageRigout({flag, URlOutfit}) {
   const percentageMatch = 90
   const percentagematchline1 = percentageMatch;
   const percentagematchline2 = percentageMatch-6;
@@ -62,7 +62,7 @@ export default function CuratedPageRigout({URlOutfit}) {
                 </li>
                 </div>
                 <div class="border-gray-200 border-8">
-                <button type="button" class= "m-4 p-5 rounded-full bg-yellow-400 m-auto " onclick="alert('You have added me to cart, Not Really')"><span style={{ fontWeight: 'bold' }}>Pick Out</span></button>
+                <button class="m-4 p-5 rounded-full bg-yellow-400 m-auto"  onClick={() => {flag(true)} }>Pick Out</button>
                 </div>
               </ul>
           </div>

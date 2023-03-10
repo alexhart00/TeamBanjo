@@ -15,17 +15,26 @@ export default function CuratedPage({clothingData, showComponent}){
     var bottomImages = getImages(bottomArray);
     var selectedItem = bottomArray[0];
 
-    if(showComponent == true){
+    var [Part2Flag, setFlagVisible] = useState(false);
+
+    if(showComponent == true && Part2Flag == false){
         return(
             <div>
                 CuratedPage
-                <CuratedPageRigout URlOutfit={outfitImages}/>
-                <ItemContainerDetail item={selectedItem}/>
-                <ItemContainerDetail item={selectedItem}/>
+                <CuratedPageRigout flag={setFlagVisible} URlOutfit={outfitImages}/>
             </div>
         );
     }
-
+    if(showComponent == true && Part2Flag == true){
+        return(
+            <div>
+            CuratedPage
+            <CuratedPageRigout URlOutfit={outfitImages}/>
+            <ItemContainerDetail item={selectedItem}/>
+            <ItemContainerDetail item={selectedItem}/>
+            </div>
+        );
+    }        
     else{
         return(
             <div></div>
