@@ -93,3 +93,4 @@
 ### Done
 - Try to fix software issues
 - Update some UI stuff
+- New Random Photo added to RandomRigoutPickout
