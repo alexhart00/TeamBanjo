@@ -19,7 +19,7 @@ export default function CuratedPage({clothingData, showComponent}){
         return(
             <div>
                 CuratedPage
-                <CuratedPageRigout URlOutfit={topImages}/>
+                <CuratedPageRigout URlOutfit={outfitImages}/>
                 <ItemContainerDetail item={selectedItem}/>
                 <ItemContainerDetail item={selectedItem}/>
             </div>
