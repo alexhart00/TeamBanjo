@@ -3,18 +3,15 @@ import ItemContainerDetail from "../Shared/ItemContainerDetail";
 import RandomPageRigoutPart2 from "../Shared/RandomPageRigoutPart2";
 import RandomPageRigoutPart1 from "../Shared/RandomPageRigoutPart1";
 import React, { useState } from "react";
+import { Outfit } from "../../models/outfit.model";
 
 export default function RandomPage({clothingData, showComponent}){
-    const [randomNum, setRandomNum] = useState(5);
-    
-    const handleRandomNum = () => {
-        setRandomNum(Math.random(25))
-    };
+
     var bottomArray = JSON.parse(clothingData[0]);
     var topArray = JSON.parse(clothingData[1]);
     var outfitArray = JSON.parse(clothingData[2]);
 
-    var selectedItem = bottomArray[0];
+    var selectedItem = topArray[0];
 
     var [percentageMatch, setPercentageMatch] = useState('90');
     var [Part2Flag, setFlagVisible] = useState(false);
@@ -23,15 +20,27 @@ export default function RandomPage({clothingData, showComponent}){
         return(
             <div>
                 RandomPagePart1
-                <RandomPageRigoutPart1 flag={setFlagVisible} percentageMatch={percentageMatch} setPercentageMatch={setPercentageMatch}/>
+                <RandomPageRigoutPart1
+                flag={setFlagVisible} 
+                percentageMatch={percentageMatch} 
+                setPercentageMatch={setPercentageMatch}
+                tops={topArray}
+                bottoms={bottomArray}
+                outfits={outfitArray}/>
             </div>
         );
     }
     if(showComponent == true && Part2Flag == true){
+
+        var randomIndex = getRandomInt(25);
+        var selectedOutfit = outfitArray[randomIndex];
+
         return(
             <div>
             RandomPagePart2
-            <RandomPageRigoutPart2 percentageMatch={percentageMatch}/>
+            <RandomPageRigoutPart2 
+            percentageMatch={percentageMatch}
+            selectedOutfit={selectedOutfit} />
             <ItemContainerDetail item={selectedItem}/>
             <ItemContainerDetail item={selectedItem}/>
             </div>
@@ -45,3 +54,7 @@ export default function RandomPage({clothingData, showComponent}){
     }
 
 }
+
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+  }

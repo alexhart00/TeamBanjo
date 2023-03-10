@@ -1,6 +1,7 @@
 import products from "../../assets/database/products.json"
 
 export default function RandomPageRigoutPart1({flag, percentageMatch, setPercentageMatch}) {
+
     return(
       <div class="flex flex-wrap w-6/12 items-center p-8 bg-gray-100 border-gray-200 border-8 content-center centerDiv shadow-lg">
           <div class="flex flex-wrap justify-between mx-auto">
@@ -16,7 +17,7 @@ export default function RandomPageRigoutPart1({flag, percentageMatch, setPercent
                     <div><p>&nbsp;</p></div>
                   </li>
                   <li>
-                    <button class="p-3 bg-yellow-400 m-auto"  onClick={() => {flag(true)} }>Randomize My Outfit</button>
+                    <button class="p-3 bg-yellow-400 m-auto"  onClick={() => {flag(true)}}>Randomize My Outfit</button>
                   </li>
                   <div><p>&nbsp;</p></div>
                 </ul>
