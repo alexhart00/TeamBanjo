@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import ItemCarousel from "../Shared/Carousel.client";
 import ManualPageRigout from "../Shared/ManualPageRigout";
 import ItemContainerDetail from "../Shared/ItemContainerDetail";
@@ -13,8 +14,10 @@ export default function ManualPage({clothingData, showComponent}){
     var bottomImages = getImages(bottomArray);
 
     var selectedItem = bottomArray[0];
+    var [Part2Flag, setFlagVisible] = useState(false);
 
-    if(showComponent == true){
+    
+    if(showComponent == true && Part2Flag == false){
         return(
             <div>
                  <p>Manual Page</p>
@@ -26,14 +29,30 @@ export default function ManualPage({clothingData, showComponent}){
                  topArray={topArray}
                  bottomArray={bottomArray}
                  outfitArray={outfitArray}
+                 flag = {setFlagVisible}
                  />
-                 <ItemContainerDetail item={selectedItem}/>
-                 <ItemContainerDetail item={selectedItem}/>
-
             </div>
             
         );
     }
+    if(showComponent == true && Part2Flag == true){
+        return(
+            <div>
+            <p>Manual Page</p>
+                 {/* <ItemCarousel imgUrls={topImages}/> */}
+                 {/* <ItemCarousel imgUrls={bottomImages}/> */}
+                 <ManualPageRigout 
+                 URlTop={topImages}
+                 URlBottom={bottomImages}
+                 topArray={topArray}
+                 bottomArray={bottomArray}
+                 outfitArray={outfitArray}
+                 />
+                 <ItemContainerDetail item={selectedItem}/>
+                 <ItemContainerDetail item={selectedItem}/>
+            </div>
+        );
+    }        
     else{
         return(
             <div></div>
