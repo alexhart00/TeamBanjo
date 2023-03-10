@@ -38,14 +38,15 @@ export default function RandomPage({clothingData, showComponent}){
         return(
             <div>
             RandomPagePart2
-            <RandomPageRigoutPart2 
+            <RandomPageRigoutPart2
+            flag={setFlagVisible} 
             percentageMatch={percentageMatch}
             selectedOutfit={selectedOutfit} />
             <ItemContainerDetail item={selectedItem}/>
             <ItemContainerDetail item={selectedItem}/>
             </div>
         );
-    }        
+    }     
     else{
         return(
             <div>

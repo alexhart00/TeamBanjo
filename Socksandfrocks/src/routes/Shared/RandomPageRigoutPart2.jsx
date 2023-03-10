@@ -1,6 +1,6 @@
 import products from "../../assets/database/products.json"
 
-export default function RandomPageRigoutPart2({percentageMatch, selectedOutfit}) {
+export default function RandomPageRigoutPart2({flag, percentageMatch, selectedOutfit}) {
 
   var randOutfit = selectedOutfit;
 
@@ -28,8 +28,7 @@ export default function RandomPageRigoutPart2({percentageMatch, selectedOutfit})
                 <li>{percentagematchline3}% {percentagetagline3}</li>
                 <div><p>&nbsp;</p></div>
                 <li>
-                  <button type="button" class="p-3 rounded-full bg-yellow-400 m-auto" onClick={() => {flag(true)}}>Go Back</button>
-                  <button type="button" class= "p-3 rounded-full bg-yellow-400 m-auto " onclick="alert('You have added me to cart, Not Really')"><span style={{ fontWeight: 'bold' }}>Add to Cart!</span></button>
+                  <button type="button" class="p-3 rounded-full bg-yellow-400 m-auto" onClick={() => {flag(false)}}>Go Back</button>
                 </li>
               </ul>
             </div>
