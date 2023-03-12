@@ -3,6 +3,7 @@ import { Bottom } from "../../models/bottom.model";
 import { Outfit } from "../../models/outfit.model";
 import { Top } from "../../models/top.model";
 import ItemCarousel from "./Carousel.client";
+import ItemContainerDetail from "./ItemContainerDetail";
 
 export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArray, outfitArray, flag}) {
 
@@ -10,7 +11,7 @@ export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArr
 
   //Will replace first parameter of both with selected url from carousel
   //Bottom getBottom currently using dummy urls in JSON
-  var selectedTop = getTop(topArray[0].photoUrl, topArray);
+  var selectedTop = getTop(topArray[3].photoUrl, topArray);
   var selectedBottom = getBottom(bottomArray[0].photoUrl, bottomArray);
 
   //next step would be displaying all outfit properties 
@@ -19,7 +20,8 @@ export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArr
   const percentageMatch = 90;
 
     return(
-      <div class="grid grid-cols-2 flex flex-wrap w-6/12 items-center p-8 bg-gray-100 border-gray-200 border-8 content-center centerDiv shadow-lg">
+      <div>
+         <div class="grid grid-cols-2 flex flex-wrap w-6/12 items-center p-8 bg-gray-100 border-gray-200 border-8 content-center centerDiv shadow-lg">
             <div class="mr-32 ml-32">
                 <ItemCarousel imgUrls={URlTop}/>
             </div>
@@ -41,6 +43,10 @@ export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArr
                 <ItemCarousel imgUrls={URlBottom}/>
             </div>
       </div>
+      <ItemContainerDetail item={selectedTop}/>
+      <ItemContainerDetail item={selectedBottom}/>
+      </div>
+     
     );
   }
 

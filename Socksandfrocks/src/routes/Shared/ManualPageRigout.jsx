@@ -24,18 +24,9 @@ export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArr
                 <ItemCarousel imgUrls={URlTop}/>
             </div>
           <div class="row-span-2 flex flex-wrap content-center text-center font-bold content-center bg-gray-100">
-              <ul class="m-4 p-2 border-gray-200 border-8 shadow-lg">
-                <div class="border-gray-200 border-8">
-                    <li>This outfit, has a</li>
-                    <li>a {percentageMatch}% Match</li>
-                </div>
-                <div class="border-gray-200 border-8 content-center">
-                    <img class="rounded-lg object-center max-h-52 m-auto" src={selectedOutfit.photoUrl} alt="Item-photo"/>
-                </div>
                 <div class="border-gray-200 border-8">
                 <button type="button" class= "m-4 p-5 rounded-full bg-yellow-400 m-auto " onClick={() => {flag(true)}}><span style={{ fontWeight: 'bold' }}>Pick Out</span></button>
                 </div>
-              </ul>
           </div>
           <div class="mr-32 ml-32">
                 <ItemCarousel imgUrls={URlBottom}/>

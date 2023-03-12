@@ -50,8 +50,6 @@ export default function ManualPage({clothingData, showComponent}){
                  outfitArray={outfitArray}
                  flag = {setFlagVisible}
                  />
-                 <ItemContainerDetail item={selectedItem}/>
-                 <ItemContainerDetail item={selectedItem}/>
             </div>
         );
     }        
