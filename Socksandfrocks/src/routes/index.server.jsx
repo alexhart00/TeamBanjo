@@ -63,7 +63,10 @@ function getOutfits(){
   outfitArray = [];
 
   outfits.map((outfit) =>{
-    var newOutfit = new Outfit(outfit.id, getTopByID(outfit.top_id), getBottomByID(outfit.bottom_id), outfit.photoUrl, outfit.color, outfit.style, outfit.dressCode);
+    var newOutfit = new Outfit(outfit.id, getTopByID(outfit.top_id), getBottomByID(outfit.bottom_id), 
+    outfit.photoUrl, outfit.color, outfit.style, outfit.dressCode, outfit.percentMatch, outfit.percentCasual,
+    outfit.percentCute, outfit.percentDressy, outfit.percentProf, outfit.percentCool, outfit.percentClassic);
+    
     outfitArray.push(newOutfit);
   });
 

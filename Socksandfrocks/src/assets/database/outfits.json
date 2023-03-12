@@ -12,7 +12,14 @@
           "Casual",
           "Cute"
         ],
-        "dressCode": "Casual"
+        "dressCode": "Casual",
+        "percentMatch": "100",
+        "percentCasual": "50",
+        "percentCute": "50",
+        "percentDressy": "0",
+        "percentProf": "0",
+        "percentCool": "0",
+        "percentClassic": "0"
       },
       {
         "_id": {
@@ -31,7 +38,14 @@
         "dressCode": [
           "Dressy",
           "Business Casual"
-        ]
+        ],
+        "percentMatch": "100",
+        "percentCasual": "0",
+        "percentCute": "33",
+        "percentDressy": "33",
+        "percentProf": "33",
+        "percentCool": "0",
+        "percentClassic": "0"
       },
       {
         "_id": {
@@ -52,7 +66,14 @@
           "Casual",
           "Dressy",
           "Business Casual"
-        ]
+        ],
+        "percentMatch": "100",
+        "percentCasual": "25",
+        "percentCute": "25",
+        "percentDressy": "25",
+        "percentProf": "25",
+        "percentCool": "0",
+        "percentClassic": "0"
       },
       {
         "_id": {
@@ -70,7 +91,14 @@
           "Cute",
           "Dressy"
         ],
-        "dressCode": "Dressy"
+        "dressCode": "Dressy",
+        "percentMatch": "100",
+        "percentCasual": "0",
+        "percentCute": "50",
+        "percentDressy": "50",
+        "percentProf": "0",
+        "percentCool": "0",
+        "percentClassic": "0"
       },
       {
         "_id": {
@@ -88,7 +116,14 @@
           "Cute",
           "Professional"
         ],
-        "dressCode": "Business Professional"
+        "dressCode": "Business Professional",
+        "percentMatch": "100",
+        "percentCasual": "0",
+        "percentCute": "50",
+        "percentDressy": "0",
+        "percentProf": "50",
+        "percentCool": "0",
+        "percentClassic": "0"
       },
       {
         "_id": {
@@ -107,7 +142,14 @@
         "dressCode": [
           "Casual",
           "Dressy"
-        ]
+        ],
+        "percentMatch": "100",
+        "percentCasual": "33",
+        "percentCute": "0",
+        "percentDressy": "33",
+        "percentProf": "0",
+        "percentCool": "33",
+        "percentClassic": "0"
       },
       {
         "_id": {
@@ -129,7 +171,14 @@
           "Casual",
           "Dressy",
           "Business Casual"
-        ]
+        ],
+        "percentMatch": "100",
+        "percentCasual": "0",
+        "percentCute": "0",
+        "percentDressy": "50",
+        "percentProf": "0",
+        "percentCool": "50",
+        "percentClassic": "0"
       },
       {
         "_id": {
@@ -149,7 +198,14 @@
           "Casual",
           "Dressy",
           "Business Casual"
-        ]
+        ],
+        "percentMatch": "100",
+        "percentCasual": "33",
+        "percentCute": "0",
+        "percentDressy": "33",
+        "percentProf": "0",
+        "percentCool": "33",
+        "percentClassic": "0"
       },
       {
         "_id": {
@@ -167,7 +223,14 @@
           "Dressy",
           "Cool"
         ],
-        "dressCode": "Dressy"
+        "dressCode": "Dressy",
+        "percentMatch": "100",
+        "percentCasual": "0",
+        "percentCute": "0",
+        "percentDressy": "50",
+        "percentProf": "0",
+        "percentCool": "50",
+        "percentClassic": "0"
       },
       {
         "_id": {
@@ -186,7 +249,14 @@
           "Cool",
           "Professional"
         ],
-        "dressCode": "Business Casual"
+        "dressCode": "Business Casual",
+        "percentMatch": "100",
+        "percentCasual": "0",
+        "percentCute": "0",
+        "percentDressy": "33",
+        "percentProf": "33",
+        "percentCool": "33",
+        "percentClassic": "0"
       },
       {
         "_id": {
@@ -205,7 +275,14 @@
         "dressCode": [
           "Casual",
           "Dressy"
-        ]
+        ],
+        "percentMatch": "100",
+        "percentCasual": "33",
+        "percentCute": "0",
+        "percentDressy": "33",
+        "percentProf": "0",
+        "percentCool": "0",
+        "percentClassic": "33"
       },
       {
         "_id": {
@@ -226,7 +303,14 @@
         "dressCode": [
           "Dressy",
           "Business Casual"
-        ]
+        ],
+        "percentMatch": "100",
+        "percentCasual": "0",
+        "percentCute": "0",
+        "percentDressy": "50",
+        "percentProf": "0",
+        "percentCool": "0",
+        "percentClassic": "50"
       },
       {
         "_id": {
@@ -244,7 +328,14 @@
         "dressCode": [
           "Dressy",
           "Business Casual"
-        ]
+        ],
+        "percentMatch": "100",
+        "percentCasual": "0",
+        "percentCute": "0",
+        "percentDressy": "50",
+        "percentProf": "0",
+        "percentCool": "0",
+        "percentClassic": "50"
       },
       {
         "_id": {
@@ -280,7 +371,14 @@
         "dressCode": [
           "Dressy",
           "Business Casual"
-        ]
+        ],
+        "percentMatch": "100",
+        "percentCasual": "0",
+        "percentCute": "0",
+        "percentDressy": "0",
+        "percentProf": "50",
+        "percentCool": "0",
+        "percentClassic": "50"
       },
       {
         "_id": {
@@ -299,7 +397,14 @@
         "dressCode": [
           "Casual",
           "Dressy"
-        ]
+        ],
+        "percentMatch": "100",
+        "percentCasual": "33",
+        "percentCute": "33",
+        "percentDressy": "0",
+        "percentProf": "0",
+        "percentCool": "0",
+        "percentClassic": "33"
       },
       {
         "_id": {
@@ -336,7 +441,14 @@
           "Classic",
           "Dressy"
         ],
-        "dressCode": "Dressy"
+        "dressCode": "Dressy",
+        "percentMatch": "100",
+        "percentCasual": "25",
+        "percentCute": "25",
+        "percentDressy": "25",
+        "percentProf": "0",
+        "percentCool": "0",
+        "percentClassic": "25"
       },
       {
         "_id": {
@@ -355,7 +467,14 @@
           "Classic",
           "Dressy"
         ],
-        "dressCode": "Dressy"
+        "dressCode": "Dressy",
+        "percentMatch": "100",
+        "percentCasual": "0",
+        "percentCute": "33",
+        "percentDressy": "33",
+        "percentProf": "0",
+        "percentCool": "0",
+        "percentClassic": "33"
       },
       {
         "_id": {
@@ -375,7 +494,14 @@
           "Dressy",
           "Professional"
         ],
-        "dressCode": "Business Casual"
+        "dressCode": "Business Casual",
+        "percentMatch": "100",
+        "percentCasual": "0",
+        "percentCute": "25",
+        "percentDressy": "25",
+        "percentProf": "25",
+        "percentCool": "0",
+        "percentClassic": "25"
       },
       {
         "_id": {
@@ -390,7 +516,14 @@
           "Casual",
           "Classic"
         ],
-        "dressCode": "Dressy"
+        "dressCode": "Dressy",
+        "percentMatch": "100",
+        "percentCasual": "50",
+        "percentCute": "0",
+        "percentDressy": "0",
+        "percentProf": "0",
+        "percentCool": "0",
+        "percentClassic": "50"
       },
       {
         "_id": {
@@ -414,7 +547,14 @@
           "Casual",
           "Dressy",
           "Business Casual"
-        ]
+        ],
+        "percentMatch": "100",
+        "percentCasual": "0",
+        "percentCute": "25",
+        "percentDressy": "25",
+        "percentProf": "0",
+        "percentCool": "25",
+        "percentClassic": "25"
       },
       {
         "_id": {
@@ -435,7 +575,14 @@
           "Casual",
           "Dressy",
           "Business Casual"
-        ]
+        ],
+        "percentMatch": "100",
+        "percentCasual": "0",
+        "percentCute": "25",
+        "percentDressy": "25",
+        "percentProf": "0",
+        "percentCool": "25",
+        "percentClassic": "25"
       },
       {
         "_id": {
@@ -454,7 +601,14 @@
           "Cool",
           "Dressy"
         ],
-        "dressCode": "Dressy"
+        "dressCode": "Dressy",
+        "percentMatch": "100",
+        "percentCasual": "0",
+        "percentCute": "33",
+        "percentDressy": "33",
+        "percentProf": "0",
+        "percentCool": "33",
+        "percentClassic": "0"
       },
       {
         "_id": {
@@ -477,6 +631,13 @@
         "dressCode": [
           "Dressy",
           "Business Casual"
-        ]
+        ],
+        "percentMatch": "100",
+        "percentCasual": "0",
+        "percentCute": "0",
+        "percentDressy": "25",
+        "percentProf": "25",
+        "percentCool": "25",
+        "percentClassic": "25"
       }
 ]
