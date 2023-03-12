@@ -42,9 +42,9 @@ export default function RandomPage({clothingData, showComponent}){
             <RandomPageRigoutPart2
             flag={setFlagVisible} 
             percentageMatch={percentageMatch}
-            selectedOutfit={selectedOutfit} />
-            <ItemContainerDetail item={selectedItem}/>
-            <ItemContainerDetail item={selectedItem}/>
+            selectedOutfit={selectedOutfit}
+            tops={topArray}
+            bottoms={bottomArray} />
             </div>
         );
     }     

@@ -1,28 +1,29 @@
 import products from "../../assets/database/products.json"
+import ItemContainerDetail from "./ItemContainerDetail";
 
-export default function RandomPageRigoutPart2({flag, selectedOutfit}) {
+export default function RandomPageRigoutPart2({flag, selectedOutfit, tops, bottoms}) {
 
-  var randOutfit = selectedOutfit;
-
-  const percentagematchline1 = "";
-  const percentagematchline2 = "";
-  const percentagematchline3 = "";
-  const percentagetagline1 = "Rebellious";
-  const percentagetagline2 = "Dramatic";
-  const percentagetagline3 = "Creative";
+  const randOutfit = selectedOutfit;
 
   const styles = randOutfit.style;
 
   const percentages = getPercentages(randOutfit, styles);
- 
+
+  var topArray = tops;
+  var bottomArray = bottoms;
+  console.log(topArray);
+
+  const randTop = getItemByID(randOutfit.top.id, topArray);
+  const randBottom = getItemByID(randOutfit.bottom.id, bottomArray);
 
     return(
+      <div>
       <div class="flex flex-wrap w-6/12 items-center p-8 bg-gray-100 border-gray-200 border-8 content-center centerDiv shadow-lg">
           <div class="flex flex-wrap justify-between mx-auto">
-            <div class="mr-32 ml-2">
+            <div class="mr-32 ml-2 inline-block">
                 <img class="rounded-lg object-center" src={randOutfit.photoUrl} alt="Item-photo"/>
             </div>
-            <div class="flex flex-wrap content-center max-h-sm text-center font-bold content-center bg-gray-100 ">
+            <div class="inline-block flex flex-wrap content-center max-h-sm text-center font-bold content-center bg-gray-100 ">
               <ul class="p-2 border-gray-200 border-8 shadow-lg">
                 <li>Rigout Pickout has</li>
                 <li>found an outfit with</li>
@@ -41,6 +42,11 @@ export default function RandomPageRigoutPart2({flag, selectedOutfit}) {
               </ul>
             </div>
           </div>
+        </div>
+             <div>
+             <ItemContainerDetail item={randTop}/>
+             <ItemContainerDetail item={randBottom}/>
+             </div>
         </div>
     );
   }
@@ -67,4 +73,13 @@ export default function RandomPageRigoutPart2({flag, selectedOutfit}) {
     }
 
     return percentList;
+  }
+
+  function getItemByID(id, array){
+    let item = array.find(item => 
+      {
+        return item.id === id
+      }
+      );
+    return item;
   }
