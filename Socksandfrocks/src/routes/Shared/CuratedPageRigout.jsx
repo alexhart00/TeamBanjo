@@ -62,7 +62,7 @@ export default function CuratedPageRigout({flag, URlOutfit}) {
                 </li>
                 </div>
                 <div class="border-gray-200 border-8">
-                <button class="m-4 p-5 rounded-full bg-yellow-400 m-auto"  onClick={() => {flag(true)} }>Pick Out</button>
+                <button style="background-color: #795caf; border-radius: 8px; text-align: center; color: #E5E4E2; padding: 6px 12px; font-size: 24px;"  onClick={() => {flag(true)} }>Pick Out</button>
                 </div>
               </ul>
           </div>
