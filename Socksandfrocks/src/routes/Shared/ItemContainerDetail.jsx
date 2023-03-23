@@ -14,33 +14,12 @@ export default function ItemContainerDetail({item}) {
                               <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 flex-row space-x-8 md:flex-row md:space-x-8 md:mt-0 md:bg-gray-100 pt-10">
                                     <li>
                                           <ul>
-                                                <li>Name</li>
+                                                <li>Item:</li>
                                                 <li class="p-1 bg-white">{item.itemName}</li>
                                           </ul>
                                     </li>
-                                    <li>
-                                          <ul>
-                                          {/* No property for price */}
-                                                <li>Price</li>
-                                                <li class="p-1 bg-white">$Placeholder</li>
-                                    </ul>
-                                    </li>
-                                    <li>
-                                          <ul>
-                                                <li>Sizes:</li>
-                                                <li>
-                                                      <label for="Sizes"></label>
-                                                      <select class="h-1/12 p-1">
-                                                            <option value="Small">Small</option>
-                                                            <option value="Medium">Medium</option>
-                                                            <option value="Large">Large</option>
-                                                      </select>
-                                                </li>
-                                          </ul>
-                                    </li>
                                     <li class="flex">
-                                          {/*placeholder button see https://help.shopify.com/en/manual/online-sales-channels/buy-button/add-embed-code */}
-                                          <button type="button" class= "p-2 rounded-full bg-yellow-400 " onclick="alert('You have added me to cart, Not Really')"><span style={{ fontWeight: 'bold' }}>Add to Cart!</span></button>
+                                          <a href={item.listing}><button type="button" class= "p-2 rounded-full bg-yellow-400 "><span style={{ fontWeight: 'bold' }}>View Product</span></button></a>
                                     </li>
                               </ul>
                         </div>
