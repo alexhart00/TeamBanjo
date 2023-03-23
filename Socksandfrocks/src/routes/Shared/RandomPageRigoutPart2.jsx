@@ -37,7 +37,7 @@ export default function RandomPageRigoutPart2({flag, selectedOutfit, tops, botto
                 </ul>
                 <div><p>&nbsp;</p></div>
                 <li>
-                  <button type="button" class="p-3 rounded-full bg-yellow-400 m-auto" onClick={() => {flag(false)}}>Go Back</button>
+                  <button type="button" class="SFbutton" onClick={() => {flag(false)}}>Go Back</button>
                 </li>
               </ul>
             </div>

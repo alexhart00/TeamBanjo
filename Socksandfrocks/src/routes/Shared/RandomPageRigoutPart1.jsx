@@ -18,7 +18,7 @@ export default function RandomPageRigoutPart1({flag, percentageMatch, setPercent
                     <div><p>&nbsp;</p></div>
                   </li>
                   <li>
-                    <button class="p-3 bg-yellow-400 m-auto"  onClick={() => {flag(true)}}>Randomize My Outfit</button>
+                    <button class="SFbutton"  onClick={() => {flag(true)}}>Randomize My Outfit</button>
                   </li>
                   <div><p>&nbsp;</p></div>
                 </ul>

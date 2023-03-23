@@ -35,7 +35,7 @@ export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArr
                     <img class="rounded-lg object-center max-h-52 m-auto" src={selectedOutfit.photoUrl} alt="Item-photo"/>
                 </div>
                 <div class="border-gray-200 border-8">
-                <button type="button" class= "m-4 p-5 rounded-full bg-yellow-400 m-auto " onClick={() => {flag(false)}}><span style={{ fontWeight: 'bold' }}>Go back</span></button>
+                <button type="button" class="SFbutton" onClick={() => {flag(false)}}><span style={{ fontWeight: 'bold' }}>Go back</span></button>
                 </div>
               </ul>
           </div>

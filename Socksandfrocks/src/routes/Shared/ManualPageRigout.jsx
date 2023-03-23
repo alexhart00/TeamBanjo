@@ -25,7 +25,7 @@ export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArr
             </div>
           <div class="row-span-2 flex flex-wrap content-center text-center font-bold content-center bg-gray-100">
                 <div class="border-gray-200 border-8">
-                <button type="button" class= "m-4 p-5 rounded-full bg-yellow-400 m-auto " onClick={() => {flag(true)}}><span style={{ fontWeight: 'bold' }}>Pick Out</span></button>
+                <button type="button" class= "SFbutton" onClick={() => {flag(true)}}><span style={{ fontWeight: 'bold' }}>Pick Out</span></button>
                 </div>
           </div>
           <div class="mr-32 ml-32">
