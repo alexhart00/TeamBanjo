@@ -94,3 +94,13 @@
 - Try to fix software issues
 - Update some UI stuff
 - New Random Photo added to RandomRigoutPickout
+
+## Week 10 - Rounding out Everyone
+### TO DO
+- Finish Buttons for Home Screen
+- Carousel still needs to be figured out for Item Container Details
+- Figure out scope for final week.
+### Done
+- Home Page skeleton made
+- Outfit data added
+- Random RigoutPickout working
