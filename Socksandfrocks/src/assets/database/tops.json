@@ -22,7 +22,8 @@
     "bottom_id": null,
     "match": null,
     "top_id": null,
-    "type": null
+    "type": null,
+    "listing" : "https://socksandfrocks.shop/collections/value-sets/products/pink-sweetheart-blouse"
   },
       {
         "_id": {
@@ -50,7 +51,8 @@
         "bottom_id": null,
         "match": null,
         "top_id": null,
-        "type": null
+        "type": null,
+        "listing" : "https://socksandfrocks.shop/collections/value-sets/products/colorful-tie-blouse"
       },
       {
         "_id": {
@@ -58,7 +60,7 @@
         },
         "id": "t3",
         "itemName": "Turquoise Button Down Top",
-        "photoUrl": "https://cdn.shopify.com/s/files/1/0057/8384/6985/products/IMG_2670_360x.heic?v=1678222642",
+        "photoUrl": "https://socksandfrocks.shop/collections/value-sets/products/turquoise-button-down-top",
         "sleeveLength": "Sleeveless",
         "color": "Turquoise",
         "pattern": "Solid",
@@ -74,7 +76,8 @@
         "bottom_id": null,
         "match": null,
         "top_id": null,
-        "type": null
+        "type": null,
+        "listing" : "https://socksandfrocks.shop/collections/value-sets/products/pink-sweetheart-blouse"
       },
       {
         "_id": {
@@ -102,7 +105,8 @@
         "bottom_id": null,
         "match": null,
         "top_id": null,
-        "type": null
+        "type": null,
+        "listing" : "https://socksandfrocks.shop/collections/value-sets/products/off-the-shoulder-striped-top"
       },
       {
         "_id": {
@@ -128,6 +132,7 @@
         "bottom_id": null,
         "match": null,
         "top_id": null,
-        "type": null
+        "type": null,
+        "listing" : "https://socksandfrocks.shop/collections/value-sets/products/maroon-asymmetrical-shirt"
       }
 ]

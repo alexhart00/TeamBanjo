@@ -22,7 +22,8 @@
         "bottom_id": null,
         "match": null,
         "sleeveLength": null,
-        "top_id": null
+        "top_id": null,
+        "listing" : "https://socksandfrocks.shop/collections/bottoms/products/khaki-chino-pant"
       },
       {
         "_id": {
@@ -49,7 +50,8 @@
         "bottom_id": null,
         "match": null,
         "sleeveLength": null,
-        "top_id": null
+        "top_id": null,
+        "listing" : "https://socksandfrocks.shop/collections/bottoms/products/white-skinny-jean"
       },
       {
         "_id": {
@@ -78,7 +80,8 @@
         "bottom_id": null,
         "match": null,
         "sleeveLength": null,
-        "top_id": null
+        "top_id": null,
+        "listing" : "https://socksandfrocks.shop/collections/bottoms/products/dark-rinse-skinny-jean"
       },
       {
         "_id": {
@@ -102,7 +105,8 @@
         "bottom_id": null,
         "match": null,
         "sleeveLength": null,
-        "top_id": null
+        "top_id": null,
+        "listing" : "https://socksandfrocks.shop/collections/bottoms/products/black-pleated-skirt"
       },
       {
         "_id": {
@@ -127,6 +131,7 @@
         "bottom_id": null,
         "match": null,
         "sleeveLength": null,
-        "top_id": null
+        "top_id": null,
+        "listing" : "https://socksandfrocks.shop/collections/bottoms/products/black-trouser-pant"
       }
 ]

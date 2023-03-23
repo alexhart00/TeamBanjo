@@ -41,7 +41,9 @@ function getBottoms(){
   bottomArray = [];
 
   bottoms.map((product) => {
-    var newBottom = new Bottom(product.id, product.itemName, product.photoUrl, product.type, product.color, product.pattern, product.style, product.dressCode);
+    var newBottom = new Bottom(product.id, product.itemName, 
+      product.photoUrl, product.type, product.color,
+       product.pattern, product.style, product.dressCode, product.listing);
     bottomArray.push(newBottom);
   });
 
@@ -52,7 +54,10 @@ function getTops(){
   topArray = [];
 
   tops.map((product) => {
-    var newTop = new Top(product.id, product.itemName, product.photoUrl, product.sleeveLength, product.color, product.pattern, product.style, product.dressCode);
+    var newTop = new Top(product.id, product.itemName,
+       product.photoUrl, product.sleeveLength, product.color, 
+       product.pattern, product.style,
+        product.dressCode, product.listing);
     topArray.push(newTop);
   });
  

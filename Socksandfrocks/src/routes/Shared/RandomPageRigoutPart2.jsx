@@ -11,10 +11,13 @@ export default function RandomPageRigoutPart2({flag, selectedOutfit, tops, botto
 
   var topArray = tops;
   var bottomArray = bottoms;
-  console.log(topArray);
 
   const randTop = getItemByID(randOutfit.top.id, topArray);
   const randBottom = getItemByID(randOutfit.bottom.id, bottomArray);
+
+  console.log(randTop);
+  console.log(randBottom);
+  console.log(randOutfit);
 
     return(
       <div>
