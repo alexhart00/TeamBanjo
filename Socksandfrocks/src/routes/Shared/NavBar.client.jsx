@@ -81,6 +81,10 @@ export default function NavBar({clothesData}){
 
         <HomePage
           showComponent={isHomeVisible}
+          setisHomeVisible={setisHomeVisible}
+          setIsCuratedVisible={setIsCuratedVisible}
+          setIsManualVisible={setIsManualVisible}
+          setIsRandomVisible={setIsRandomVisible}
         />                
 
         <CuratedPage
