@@ -17,6 +17,6 @@ export class Top{
         this.pattern = pattern !=  null ? pattern : '';
         this.style = style != null ? style : [''];
         this.dressCode = dressCode != null ? dressCode : [''];
-        this.listing = listing != null ? listing : [''];
+        this.listing = listing != null ? listing : '';
     }
 }
