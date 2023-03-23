@@ -21,7 +21,6 @@ export default function ManualPage({clothingData, showComponent}){
     if(showComponent == true && Part2Flag == false){
         return(
             <div>
-                 <p>Manual Page</p>
                  {/* <ItemCarousel imgUrls={topImages}/> */}
                  {/* <ItemCarousel imgUrls={bottomImages}/> */}
                  <ManualPageRigout 

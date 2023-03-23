@@ -20,7 +20,6 @@ export default function RandomPage({clothingData, showComponent}){
     if(showComponent == true && Part2Flag == false) {
         return(
             <div>
-                RandomPagePart1
                 <RandomPageRigoutPart1
                 flag={setFlagVisible} 
                 percentageMatch={percentageMatch} 

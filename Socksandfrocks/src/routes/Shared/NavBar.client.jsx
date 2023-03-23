@@ -2,8 +2,8 @@
 import { useState } from 'react';
 import Robot from '../../assets/pictures/S&F.jpg';
 
-
 import CuratedPage from '../Curated/CuratedPage';
+import HomePage from '../Home/HomePage';
 import ManualPage from '../Manual/ManualPage';
 import RandomPage from '../Random/RandomPage';
 
@@ -14,6 +14,8 @@ export default function NavBar({clothesData}){
     const [isCuratedVisible, setIsCuratedVisible] = useState(false);
 
     const [isManualVisible, setIsManualVisible ] = useState(false);
+    
+    const [isHomeVisible, setisHomeVisible ] = useState(true);
 
     return(
        <div>
@@ -28,6 +30,7 @@ export default function NavBar({clothesData}){
                 <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 flex-row space-x-8 md:flex-row md:space-x-8 md:mt-0 md:bg-gray-100">
                     <li>
                         <button onClick={() => {
+                             setisHomeVisible(true)
                              setIsRandomVisible(false)
                              setIsCuratedVisible(false)
                              setIsManualVisible(false)
@@ -38,6 +41,7 @@ export default function NavBar({clothesData}){
                     </li>
                     <li>
                         <button onClick={() => {
+                            setisHomeVisible(false)
                             setIsRandomVisible(false)
                             setIsCuratedVisible(true)
                             setIsManualVisible(false)
@@ -48,6 +52,7 @@ export default function NavBar({clothesData}){
                     </li>
                     <li>
                         <button onClick={() => {
+                            setisHomeVisible(false)
                             setIsRandomVisible(false)
                             setIsCuratedVisible(false)
                             setIsManualVisible(true)
@@ -58,6 +63,7 @@ export default function NavBar({clothesData}){
                     </li>
                     <li>
                         <button onClick={() => {
+                            setisHomeVisible(false)
                             setIsRandomVisible(true)
                             setIsCuratedVisible(false)
                             setIsManualVisible(false)
@@ -70,17 +76,22 @@ export default function NavBar({clothesData}){
                 </div>
             </div>
         </nav>
+        <div><p>&nbsp;</p></div>
         </div>
+
+        <HomePage
+          showComponent={isHomeVisible}
+        />                
 
         <CuratedPage
          clothingData={clothesData}
          showComponent={isCuratedVisible}
-         />
+        />
 
         <ManualPage
          clothingData={clothesData}
          showComponent={isManualVisible}
-         />
+        />
 
         <RandomPage 
             clothingData={clothesData}

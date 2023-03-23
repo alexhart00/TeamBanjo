@@ -21,7 +21,6 @@ export default function CuratedPage({clothingData, showComponent}){
     if(showComponent == true && Part2Flag == false){
         return(
             <div>
-                CuratedPage
                 <CuratedPageRigout flag={setFlagVisible} URlOutfit={outfitImages}/>
             </div>
         );
@@ -29,10 +28,9 @@ export default function CuratedPage({clothingData, showComponent}){
     if(showComponent == true && Part2Flag == true){
         return(
             <div>
-            CuratedPage
-            <CuratedPageRigoutPart2 flag={setFlagVisible} URlOutfit={outfitImages}/>
-            <ItemContainerDetail item={selectedItem}/>
-            <ItemContainerDetail item={selectedItem}/>
+                <CuratedPageRigoutPart2 flag={setFlagVisible} URlOutfit={outfitImages}/>
+                <ItemContainerDetail item={selectedItem}/>
+                <ItemContainerDetail item={selectedItem}/>
             </div>
         );
     }        
