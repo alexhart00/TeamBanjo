@@ -19,7 +19,7 @@ export default function ItemContainerDetail({item}) {
                                           </ul>
                                     </li>
                                     <li class="flex">
-                                          <a href={item.listing}><button type="button" class= "p-2 rounded-full bg-yellow-400 "><span style={{ fontWeight: 'bold' }}>View Product</span></button></a>
+                                          <a href={item.listing}><button type="button" class= "SFbutton"><span style={{ fontWeight: 'bold' }}>View Product</span></button></a>
                                     </li>
                               </ul>
                         </div>
