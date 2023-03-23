@@ -37,7 +37,6 @@ export default function RandomPage({clothingData, showComponent}){
 
         return(
             <div>
-            RandomPagePart2
             <RandomPageRigoutPart2
             flag={setFlagVisible} 
             percentageMatch={percentageMatch}
