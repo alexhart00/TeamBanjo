@@ -393,7 +393,7 @@
           "Turquoise",
           "Black"
         ],
-        "style": "Dressy",
+        "style": ["Dressy"],
         "pattern" : [
           "Solid"
         ],

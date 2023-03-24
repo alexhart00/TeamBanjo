@@ -2,6 +2,7 @@ import products from "../../assets/database/products.json"
 import ItemCarousel from '../Shared/Carousel.client';
 import Carousel from '@somedaycode/react-carousel';
 import styled from 'styled-components';
+import ItemContainerDetail from "./ItemContainerDetail";
 
 export default function CuratedPageRigout({flag, URlOutfit, outfits, style, pattern, dressCode}) {
 
@@ -14,20 +15,33 @@ export default function CuratedPageRigout({flag, URlOutfit, outfits, style, patt
   var selectedDress = JSON.stringify(dressCode);
   selectedDress = stripDressString(selectedDress);
 
-  console.log("style: " + selectedStyle); 
-  console.log("pattern: " + selectedPattern);
-  console.log("drescode: " + selectedDress);
+  var curatedOutfit = findOutfit(outfits, selectedStyle, selectedPattern, selectedDress);
+  console.log(curatedOutfit);
+
+  const styles = curatedOutfit.style;
+
+  const percentages = getPercentages(curatedOutfit, styles);
 
     return(
+      <div>
       <div class="grid grid-cols-2 flex flex-wrap w-6/12 items-center p-8 bg-gray-100 border-gray-200 border-8 content-center centerDiv shadow-lg">
-            <div class="mr-32 ml-32">
-                
-            </div>
+        <div class="flex flex-wrap justify-between mx-auto">
           <div class="row-span-2 flex flex-wrap content-center text-center font-bold content-center bg-gray-100">
+          <img src={curatedOutfit.photoUrl} alt="Item-photo"/>
               <ul class="m-4 p-2 border-gray-200 border-8 shadow-lg">
                 <div class="border-gray-200 border-8">
-                    <li>This outfit, has a</li>
-                    <li>a 100% Match</li>
+                <ul class="p-2 border-gray-200 border-8 shadow-lg">
+                <li>Rigout Pickout has</li>
+                <li>found an outfit with</li>
+                <li>a {curatedOutfit.percentMatch}% Match</li>
+                <div><p>&nbsp;</p></div>  
+                <ul class="inline-block p-3">
+                  {styles.map(s => (<li key={s.id}>{s}</li>))}
+                </ul>
+                <ul class="inline-block p-3">
+                 {percentages.map(s => (<li key={s.id}>{s}%</li>))}
+                </ul>
+              </ul>
                   
                 </div>
                 <div class="border-gray-200 border-8">
@@ -35,6 +49,13 @@ export default function CuratedPageRigout({flag, URlOutfit, outfits, style, patt
                 </div>
               </ul>
           </div>
+      </div>
+      </div>
+      <div>
+      <ItemContainerDetail item={curatedOutfit.top}/>
+      <ItemContainerDetail item={curatedOutfit.bottom}/>
+      </div>
+     
       </div>
     );
   }
@@ -57,4 +78,44 @@ export default function CuratedPageRigout({flag, URlOutfit, outfits, style, patt
   function stripDressString(dressString){
     dressString = dressString.replaceAll("\"", "");
     return dressString;
+  }
+
+  function findOutfit(array, style, pattern, dressCode){
+    var acceptedOutfits = [];
+
+      for(let i = 0; i < array.length; i++){
+        if(array[i].style.includes(style) && array[i].pattern.includes(pattern) && array[i].dressCode.includes(dressCode)){
+          acceptedOutfits.push(array[i]);
+        }
+      }
+    
+    const randIndex = Math.floor(Math.random() * acceptedOutfits.length);
+
+    const randomOutfit = acceptedOutfits[randIndex];
+
+    return randomOutfit;
+  }
+
+  function getPercentages(outfit, stylesList){
+    var percentList = [];
+    if(stylesList.includes("Casual")){
+      percentList.push(outfit.percentCasual);
+    }
+    if(stylesList.includes("Cute")){
+      percentList.push(outfit.percentCute);
+    }
+    if(stylesList.includes("Dressy")){
+      percentList.push(outfit.percentDressy);
+    }
+    if(stylesList.includes("Professional")){
+      percentList.push(outfit.percentProf);
+    }
+    if(stylesList.includes("Cool")){
+      percentList.push(outfit.percentCool);
+    }
+    if(stylesList.includes("Classic")){
+      percentList.push(outfit.percentClassic);
+    }
+
+    return percentList;
   }

@@ -6,15 +6,10 @@ import ItemContainerDetail from "../Shared/ItemContainerDetail";
 
 export default function CuratedPage({clothingData, showComponent}){
 
-
-    var bottomArray = JSON.parse(clothingData[0]);
-    var topArray = JSON.parse(clothingData[1]);
     var outfitArray = JSON.parse(clothingData[2]);
 
     var outfitImages = getImages(outfitArray);
-    var topImages = getImages(topArray);
-    var bottomImages = getImages(bottomArray);
-    var selectedItem = bottomArray[0];
+   
 
     var [Part2Flag, setFlagVisible] = useState(false);
 
@@ -45,8 +40,6 @@ export default function CuratedPage({clothingData, showComponent}){
                 style={style}
                 pattern={pattern}
                 dressCode={dressCode}/>
-                <ItemContainerDetail item={selectedItem}/>
-                <ItemContainerDetail item={selectedItem}/>
             </div>
         );
     }        
