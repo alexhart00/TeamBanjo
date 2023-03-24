@@ -12,6 +12,9 @@
           "Casual",
           "Cute"
         ],
+        "pattern" : [
+          "Solid"
+        ],
         "dressCode": "Casual",
         "percentMatch": "100",
         "percentCasual": "50",
@@ -34,6 +37,9 @@
         ],
         "style": [
           "Dressy”, “Professional”, “Cute"
+        ],
+        "pattern" : [
+          "Solid"
         ],
         "dressCode": [
           "Dressy",
@@ -61,6 +67,9 @@
           "Cute",
           "Dressy",
           "Professional"
+        ],
+        "pattern" : [
+          "Solid"
         ],
         "dressCode": [
           "Casual",
@@ -91,6 +100,9 @@
           "Cute",
           "Dressy"
         ],
+        "pattern" : [
+          "Solid"
+        ],
         "dressCode": "Dressy",
         "percentMatch": "100",
         "percentCasual": "0",
@@ -116,6 +128,9 @@
           "Cute",
           "Professional"
         ],
+        "pattern" : [
+          "Solid"
+        ],
         "dressCode": "Business Professional",
         "percentMatch": "100",
         "percentCasual": "0",
@@ -138,6 +153,10 @@
           "Casual",
           "Cool",
           "Dressy"
+        ],
+        "pattern" : [
+          "Solid",
+          "Other"
         ],
         "dressCode": [
           "Casual",
@@ -167,6 +186,10 @@
           "Dressy",
           "Cool"
         ],
+        "pattern" : [
+          "Solid",
+          "Other"
+        ],
         "dressCode": [
           "Casual",
           "Dressy",
@@ -193,6 +216,10 @@
           "Casual",
           "Dressy",
           "Cool"
+        ],
+        "pattern" : [
+          "Solid",
+          "Other"
         ],
         "dressCode": [
           "Casual",
@@ -223,6 +250,10 @@
           "Dressy",
           "Cool"
         ],
+        "pattern" : [
+          "Solid",
+          "Other"
+        ],
         "dressCode": "Dressy",
         "percentMatch": "100",
         "percentCasual": "0",
@@ -249,6 +280,10 @@
           "Cool",
           "Professional"
         ],
+        "pattern" : [
+          "Solid",
+          "Other"
+        ],
         "dressCode": "Business Casual",
         "percentMatch": "100",
         "percentCasual": "0",
@@ -271,6 +306,9 @@
           "Casual",
           "Dressy",
           "Classic"
+        ],
+        "pattern" : [
+          "Solid"
         ],
         "dressCode": [
           "Casual",
@@ -300,6 +338,9 @@
           "Dressy",
           "Classic"
         ],
+        "pattern" : [
+          "Solid"
+        ],
         "dressCode": [
           "Dressy",
           "Business Casual"
@@ -325,6 +366,9 @@
           "Dressy",
           "Classic"
         ],
+        "pattern" : [
+          "Solid"
+        ],
         "dressCode": [
           "Dressy",
           "Business Casual"
@@ -349,7 +393,10 @@
           "Turquoise",
           "Black"
         ],
-        "style": "Dressy",
+        "style": ["Dressy"],
+        "pattern" : [
+          "Solid"
+        ],
         "dressCode": "Dressy"
       },
       {
@@ -367,6 +414,9 @@
         "style": [
           "Classic",
           "Professional"
+        ],
+        "pattern" : [
+          "Solid"
         ],
         "dressCode": [
           "Dressy",
@@ -393,6 +443,10 @@
           "Casual",
           "Cute",
           "Classic"
+        ],
+        "pattern" : [
+          "Solid",
+          "Striped"
         ],
         "dressCode": [
           "Casual",
@@ -424,6 +478,10 @@
           "Classic",
           "Dressy"
         ],
+        "pattern" : [
+          "Solid",
+          "Striped"
+        ],
         "dressCode": "Dressy"
       },
       {
@@ -440,6 +498,10 @@
           "Cute",
           "Classic",
           "Dressy"
+        ],
+        "pattern" : [
+          "Solid",
+          "Striped"
         ],
         "dressCode": "Dressy",
         "percentMatch": "100",
@@ -466,6 +528,10 @@
           "Cute",
           "Classic",
           "Dressy"
+        ],
+        "pattern" : [
+          "Solid",
+          "Striped"
         ],
         "dressCode": "Dressy",
         "percentMatch": "100",
@@ -494,6 +560,10 @@
           "Dressy",
           "Professional"
         ],
+        "pattern" : [
+          "Solid",
+          "Striped"
+        ],
         "dressCode": "Business Casual",
         "percentMatch": "100",
         "percentCasual": "0",
@@ -515,6 +585,9 @@
         "style": [
           "Casual",
           "Classic"
+        ],
+        "pattern" : [
+          "Solid"
         ],
         "dressCode": "Dressy",
         "percentMatch": "100",
@@ -543,6 +616,9 @@
           "Cool",
           "Dressy"
         ],
+        "pattern" : [
+          "Solid"
+        ],
         "dressCode": [
           "Casual",
           "Dressy",
@@ -570,6 +646,9 @@
           "Classic",
           "Cool",
           "Dressy"
+        ],
+        "pattern" : [
+          "Solid"
         ],
         "dressCode": [
           "Casual",
@@ -601,6 +680,9 @@
           "Cool",
           "Dressy"
         ],
+        "pattern" : [
+          "Solid"
+        ],
         "dressCode": "Dressy",
         "percentMatch": "100",
         "percentCasual": "0",
@@ -627,6 +709,9 @@
           "Cool",
           "Dressy",
           "Professional"
+        ],
+        "pattern" : [
+          "Solid"
         ],
         "dressCode": [
           "Dressy",
