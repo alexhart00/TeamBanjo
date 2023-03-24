@@ -18,17 +18,33 @@ export default function CuratedPage({clothingData, showComponent}){
 
     var [Part2Flag, setFlagVisible] = useState(false);
 
+    var [style, setStyle] = useState("");
+    var [dressCode, setDressCode] = useState("");
+    var [pattern, setPattern] = useState("");
+
+
     if(showComponent == true && Part2Flag == false){
         return(
             <div>
-                <CuratedPageRigout flag={setFlagVisible} URlOutfit={outfitImages}/>
+                <CuratedPageRigout 
+                flag={setFlagVisible}
+                URlOutfit={outfitImages}
+                style={setStyle}
+                pattern={setPattern}
+                dressCode={setDressCode}/>
             </div>
         );
     }
     if(showComponent == true && Part2Flag == true){
         return(
             <div>
-                <CuratedPageRigoutPart2 flag={setFlagVisible} URlOutfit={outfitImages}/>
+                <CuratedPageRigoutPart2 
+                flag={setFlagVisible} 
+                URlOutfit={outfitImages}
+                outfits={outfitArray}
+                style={style}
+                pattern={pattern}
+                dressCode={dressCode}/>
                 <ItemContainerDetail item={selectedItem}/>
                 <ItemContainerDetail item={selectedItem}/>
             </div>
