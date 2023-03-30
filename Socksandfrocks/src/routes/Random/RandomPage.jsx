@@ -13,7 +13,7 @@ export default function RandomPage({clothingData, showComponent}){
 
     var selectedItem = topArray[0];
 
-    var [percentageMatch, setPercentageMatch] = useState('90');
+    var [percentageMatch, setPercentageMatch] = useState('100');
 
     var [Part2Flag, setFlagVisible] = useState(false);
     
