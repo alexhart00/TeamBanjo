@@ -1,7 +1,6 @@
 export default function FZFPage({setisHomeVisible, setIsCuratedVisible, setIsManualVisible, setIsRandomVisible}) {
     return(
-      <div>
-        <div><p>&nbsp;</p></div>
+      <div class="p-8">
         <div class="flex flex-wrap w-6/12 items-center p-8 bg-gray-100 border-gray-200 border-8 content-center centerDiv shadow-lg">
               <h1 class="mb-4 text-8xl center p-4">404 ERROR</h1>
               <h2 class="mb-4 text-4xl center p-4">This Page Doesn't Exist ♡૮₍ ˃ ⤙ ˂ ₎ა💢</h2>
