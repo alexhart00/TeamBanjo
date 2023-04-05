@@ -104,3 +104,13 @@
 - Home Page skeleton made
 - Outfit data added
 - Random RigoutPickout working
+
+## Week 11 - Hit the Griddy on development Milestones
+### TO DO
+- Finish up Curated Page
+- Finish Home Page, 404 and No Match Page
+- Start on Tasks on Jira
+### Done
+- Made a general board of "tasks" for individuals
+- Implement SFButtons
+- Increase general Functionality with smaller tasks completed
