@@ -2,6 +2,7 @@ import renderHydrogen from '@shopify/hydrogen/entry-server';
 import {Router, FileRoutes, ShopifyProvider, Route} from '@shopify/hydrogen';
 import {Suspense} from 'react';
 import Home from './routes/index.server';
+import NotFoundPage from './routes/NotFoundPage';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Router>
           <FileRoutes />
           <Route path='/home' page={<Home/>}/>
+          <Route path='*' page={<NotFoundPage/>}/>
         </Router>
       </ShopifyProvider>
     </Suspense>
