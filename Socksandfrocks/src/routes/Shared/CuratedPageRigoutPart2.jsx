@@ -26,7 +26,7 @@ export default function CuratedPageRigout({flag, URlOutfit, outfits, style, patt
       <div>
       <div class="grid grid-cols-2 flex flex-wrap w-6/12 items-center p-8 bg-gray-100 border-gray-200 border-8 content-center centerDiv shadow-lg">
         <div class="flex flex-wrap justify-between mx-auto">
-          <div class="row-span-2 flex flex-wrap content-center text-center font-bold content-center bg-gray-100">
+          <div class="row-span-2 flex flex-wrap content-center text-center font-bold bg-gray-100">
           <img src={curatedOutfit.photoUrl} alt="Item-photo"/>
               <ul class="m-4 p-2 border-gray-200 border-8 shadow-lg">
                 <div class="border-gray-200 border-8">
