@@ -106,7 +106,6 @@ export default function CuratedPageRigout({flag, URlOutfit, style, pattern, dres
                 <div class="border-gray-200 border-8">
                     <li>
                   <label for="Style">Style:</label>
-                  <form>
                   <select name="Style"id="Style"
                   value={selectStyle}
                   onChange={e => setSelectStyle(e.target.value)}>
@@ -114,7 +113,6 @@ export default function CuratedPageRigout({flag, URlOutfit, style, pattern, dres
                         <option value={option.value}>{option.label}</option>
                       ))}
                     </select>
-                  </form>
                    
                 </li>
                 <li>
