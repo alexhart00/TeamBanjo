@@ -114,3 +114,13 @@
 - Made a general board of "tasks" for individuals
 - Implement SFButtons
 - Increase general Functionality with smaller tasks completed
+
+## Week 12 - Hit the Griddy on development Milestones IN PERSON
+### TO DO
+- Implement 404 and 0 Match page
+- Reconvene and determine obstructions and milestones
+- Implement Manual Page functionality
+### Done
+-
+-
+-
