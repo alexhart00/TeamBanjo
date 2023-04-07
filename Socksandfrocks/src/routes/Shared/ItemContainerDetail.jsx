@@ -12,14 +12,8 @@ export default function ItemContainerDetail({item}) {
                         </div>
                         <div>
                               <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 flex-row space-x-8 md:flex-row md:space-x-8 md:mt-0 md:bg-gray-100 pt-10">
-                                    <li>
-                                          <ul>
-                                                <li>Item:</li>
-                                                <li class="p-1 bg-white">{item.itemName}</li>
-                                          </ul>
-                                    </li>
                                     <li class="flex">
-                                          <a href={item.listing}><button type="button" class= "SFbutton"><span style={{ fontWeight: 'bold' }}>View Product</span></button></a>
+                                          <a target="_blank" href={item.listing}><button type="button" class= "SFbutton"><span style={{ fontWeight: 'bold' }}>View Product</span></button></a>
                                     </li>
                               </ul>
                         </div>
