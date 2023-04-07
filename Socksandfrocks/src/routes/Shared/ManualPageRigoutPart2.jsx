@@ -4,6 +4,7 @@ import { Outfit } from "../../models/outfit.model";
 import { Top } from "../../models/top.model";
 import ItemCarousel from "./Carousel.client";
 import ItemContainerDetail from "./ItemContainerDetail";
+import NoMatchPercentagePage from "./NoMatchPercentagePage";
 
 export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArray, outfitArray, flag}) {
 
@@ -13,12 +14,14 @@ export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArr
   //Bottom getBottom currently using dummy urls in JSON
   var selectedTop = getTop(topArray[3].photoUrl, topArray);
   var selectedBottom = getBottom(bottomArray[0].photoUrl, bottomArray);
+  var totalMatchPercentage = 100; // Change once totalMatchPercentage is figured out
 
   //next step would be displaying all outfit properties 
   var selectedOutfit = findOutfit(selectedTop, selectedBottom, outfitArray);
 
   const percentageMatch = 90;
 
+  if(totalMatchPercentage != 0) {
     return(
       <div>
          <div class="grid grid-cols-2 flex flex-wrap w-6/12 items-center p-8 bg-gray-100 border-gray-200 border-8 content-center centerDiv shadow-lg">
@@ -46,8 +49,14 @@ export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArr
       <ItemContainerDetail item={selectedTop}/>
       <ItemContainerDetail item={selectedBottom}/>
       </div>
-     
     );
+    }
+    else
+    {
+      return(       
+      <div><NoMatchPercentagePage flag={flag}/></div>
+      );
+    }
   }
 
 
