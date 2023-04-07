@@ -9,8 +9,8 @@ export default function CuratedPageRigout({flag, URlOutfit, style, pattern, dres
 
   const styleOptions = [
     {
-      label: "",
-      value: "",
+      label: "Select",
+      value: "Select",
     },
     {
       label: "Professional",
@@ -48,8 +48,8 @@ export default function CuratedPageRigout({flag, URlOutfit, style, pattern, dres
 
   const patternOptions = [
     {
-      label: "",
-      value: "",
+      label: "Select",
+      value: "Select",
     },
     {
       label: "Solid",
@@ -67,8 +67,8 @@ export default function CuratedPageRigout({flag, URlOutfit, style, pattern, dres
 
   const dresscodeOptions = [
     {
-      label: "",
-      value: "",
+      label: "Select",
+      value: "Select",
     },
     {
       label: "Casual",
