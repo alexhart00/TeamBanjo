@@ -4,7 +4,7 @@ import Carousel from '@somedaycode/react-carousel';
 import styled from 'styled-components';
 import ItemContainerDetail from "./ItemContainerDetail";
 
-export default function CuratedPageRigout({flag, URlOutfit, outfits, style, pattern, dressCode}) {
+export default function CuratedPageRigout({flag,  URlOutfit, outfits, style, pattern, dressCode}) {
 
   var selectedStyle = JSON.stringify(style);
   selectedStyle = stripStyleString(selectedStyle);
@@ -18,9 +18,17 @@ export default function CuratedPageRigout({flag, URlOutfit, outfits, style, patt
   var curatedOutfit = findOutfit(outfits, selectedStyle, selectedPattern, selectedDress);
   console.log(curatedOutfit);
 
-  const styles = curatedOutfit.style;
+  try{
+    const styles = curatedOutfit.style;
+    const percentages = getPercentages(curatedOutfit, styles);
+  }
 
-  const percentages = getPercentages(curatedOutfit, styles);
+  catch(e){
+    location.reload();
+    alert("There is no match for the criteria you have selected, press OK to return to home page");
+
+  }
+
 
     return(
       <div>
@@ -81,19 +89,26 @@ export default function CuratedPageRigout({flag, URlOutfit, outfits, style, patt
   }
 
   function findOutfit(array, style, pattern, dressCode){
-    var acceptedOutfits = [];
-
-      for(let i = 0; i < array.length; i++){
-        if(array[i].style.includes(style) && array[i].pattern.includes(pattern) && array[i].dressCode.includes(dressCode)){
-          acceptedOutfits.push(array[i]);
+      var outfitFound = false;
+      var acceptedOutfits = [];
+  
+        for(let i = 0; i < array.length; i++){
+          if(array[i].style.includes(style) && array[i].pattern.includes(pattern) && array[i].dressCode.includes(dressCode)){
+            acceptedOutfits.push(array[i]);
+            outfitFound = true;
+          }
         }
+  
+      if(!outfitFound){
+        alert("There is no match for the criteria you have selected, press OK to return to home page");
+        location.reload();
       }
-    
-    const randIndex = Math.floor(Math.random() * acceptedOutfits.length);
-
-    const randomOutfit = acceptedOutfits[randIndex];
-
-    return randomOutfit;
+  
+      const randIndex = Math.floor(Math.random() * acceptedOutfits.length);
+  
+      const randomOutfit = acceptedOutfits[randIndex];
+  
+      return randomOutfit;
   }
 
   function getPercentages(outfit, stylesList){
