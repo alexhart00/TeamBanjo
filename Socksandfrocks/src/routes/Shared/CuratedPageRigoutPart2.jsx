@@ -19,8 +19,9 @@ export default function CuratedPageRigout({flag,  URlOutfit, outfits, style, pat
   console.log(curatedOutfit);
 
   try{
-    const styles = curatedOutfit.style;
-    const percentages = getPercentages(curatedOutfit, styles);
+    var styles = curatedOutfit.style;
+    console.log(styles);
+    var percentages = getPercentages(curatedOutfit, styles);
   }
 
   catch(e){
