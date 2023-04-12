@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import Carousel from '@somedaycode/react-carousel';
+//import Carousel from '@somedaycode/react-carousel';
+import Carousel from './CarouselComponents/dist/Carousel';
 import styled from 'styled-components';
 
 export default function ItemCarousel({imgUrls}){
