@@ -12,8 +12,6 @@ export default function HomePage({showComponent, setisHomeVisible, setIsCuratedV
         return(
             <div>
                 <MainHomePage setisHomeVisible={setisHomeVisible} setIsCuratedVisible={setIsCuratedVisible} setIsManualVisible={setIsManualVisible} setIsRandomVisible={setIsRandomVisible}/>
-                <FZFPage setisHomeVisible={setisHomeVisible} setIsCuratedVisible={setIsCuratedVisible} setIsManualVisible={setIsManualVisible} setIsRandomVisible={setIsRandomVisible}/>
-                <NoMatchPercentagePage flag={Part2Flag}/>
             </div>
         );
     }
