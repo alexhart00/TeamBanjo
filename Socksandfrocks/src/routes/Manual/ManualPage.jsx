@@ -14,7 +14,9 @@ export default function ManualPage({clothingData, showComponent}){
     var topImages = getImages(topArray);
     var bottomImages = getImages(bottomArray);
 
-    var selectedItem = bottomArray[0];
+    var topSelectedItem = topArray[0];
+    var bottomSelectedItem = bottomArray[0];
+
     var [Part2Flag, setFlagVisible] = useState(false);
 
     

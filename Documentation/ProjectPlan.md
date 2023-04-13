@@ -121,6 +121,15 @@
 - Reconvene and determine obstructions and milestones
 - Implement Manual Page functionality
 ### Done
--
--
--
+- 404 and 0 Match Page implemented
+- Jara tasks issued
+
+## Week 13 - Riding Carousels make me sick
+### TO DO
+- Fix Carousel completely
+- Ensure Quality of Product
+- Continue Debugging
+### Done 
+- Small issue with Carousel fixed
+- Finish Jara tickets
+- Item Details Container updated

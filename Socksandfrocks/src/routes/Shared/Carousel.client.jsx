@@ -6,7 +6,7 @@ export default function ItemCarousel({imgUrls}){
 
     const options = {
         carouselWidth: 200,
-        itemsToShow: 0,
+        itemsToShow: 1,
         duration: 0.5,
         timing: 'ease-in-out',
         arrowSize: 20,
