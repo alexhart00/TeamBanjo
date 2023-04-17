@@ -1,0 +1,40 @@
+{
+  "name": "rigoutpickout",
+  "description": "An example using JavaScript in Hydrogen",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=16.14.0"
+  },
+  "scripts": {
+    "dev": "shopify hydrogen dev",
+    "build": "shopify hydrogen build",
+    "preview": "shopify hydrogen preview",
+    "shopify": "shopify",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
+  },
+  "devDependencies": {
+    "@shopify/app": "^3.45.1",
+    "@shopify/cli": "^3.45.1",
+    "@shopify/cli-hydrogen": "^4.1.0",
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "vite": "^2.9.13"
+  },
+  "dependencies": {
+    "@ant-design/react-slick": "^1.0.0",
+    "@remix-run/v1-route-convention": "^0.1.1",
+    "@shopify/hydrogen": "^1.6.5",
+    "@somedaycode/react-carousel": "^0.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-responsive-carousel": "^3.2.23",
+    "styled-components": "^5.3.6"
+  },
+  "author": "hart4712"
+}
