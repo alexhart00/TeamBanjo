@@ -1,5 +1,5 @@
 {
-  "name": "socksandfrocks",
+  "name": "RigoutPickout",
   "description": "An example using JavaScript in Hydrogen",
   "version": "0.0.0",
   "license": "MIT",
@@ -10,11 +10,16 @@
   "scripts": {
     "dev": "shopify hydrogen dev",
     "build": "shopify hydrogen build",
-    "preview": "shopify hydrogen preview"
+    "preview": "shopify hydrogen preview",
+    "shopify": "shopify",
+    "info": "shopify app info",
+    "generate" : "shopify app generate",
+    "deploy": "shopify app deploy"
   },
   "devDependencies": {
     "@shopify/cli": "^3.23.0",
     "@shopify/cli-hydrogen": "^3.23.0",
+    "@shopify/app": "^3.45.1",
     "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
