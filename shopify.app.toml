@@ -1,1 +1,5 @@
 name = "RigoutPickout"
+
+shopify_api_key = "8e88f733d3e382d68ae5fd17103007a2"
+
+shopify_api_secret = "892e79d4bff57deb5a03f239eca6182c"
