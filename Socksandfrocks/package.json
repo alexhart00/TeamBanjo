@@ -13,13 +13,13 @@
     "preview": "shopify hydrogen preview",
     "shopify": "shopify",
     "info": "shopify app info",
-    "generate" : "shopify app generate",
+    "generate": "shopify app generate",
     "deploy": "shopify app deploy"
   },
   "devDependencies": {
-    "@shopify/cli": "^3.23.0",
-    "@shopify/cli-hydrogen": "^3.23.0",
     "@shopify/app": "^3.45.1",
+    "@shopify/cli": "^3.45.1",
+    "@shopify/cli-hydrogen": "^4.1.0",
     "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
