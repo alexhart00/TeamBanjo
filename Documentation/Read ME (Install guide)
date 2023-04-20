@@ -1,4 +1,20 @@
-Starting Guide
+---- Rigout Pickout ---- 
+
+---- Project Description ----
+
+Rigout Pickout is a Shopify app that will attract new customers and enable them to make purchases from the business, increasing revenue.
+The app helps users create outfits in various methods based on the shop's inventory. Rigout Pickout has three options for outfit creation: Curated,
+Manual, and Random. Each of these modes is represented by a different page, which the user can navigate freely between.
+
+On the Curated page, the user can select different style attributes they desire in their outfit. The app will then select an outfit based off of the 
+criteria, or notify the user if there is no match for their selection. 
+
+On the Manual page, the user will select their own outfit manually using carousels, and will submit their selection to view their outfit in a single
+photo and be able to shop for the items they are selecting.
+
+On the Random page, the user will choose a percentage match that they want and the app will select a random outfit for them
+
+---- Starting Guide ----
 {
     Go to https://code.visualstudio.com/Download download VSCODE
     Run Installer Default Settings
@@ -13,8 +29,7 @@ Starting Guide
     Download Ngrok https://ngrok.com/
     Run Installer Default Settings    
 }
-
-Trouble Shooting Help
+---- Trouble Shooting Help ----
 {
     Ensure NodeJS installed by opening terminal select bash "node -v"
     Download ngrok "Required by shopifiy, Web API that runs stuff locally for preview"
@@ -25,7 +40,7 @@ Trouble Shooting Help
 }
 "npm install"
 
-Everything has been installed
+---- Everything has been installed ----
 {
     npm install
         To install dependencies
