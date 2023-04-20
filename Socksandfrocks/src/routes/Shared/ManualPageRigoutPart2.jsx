@@ -8,7 +8,12 @@ import NoMatchPercentagePage from "./NoMatchPercentagePage";
 export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArray, outfitArray, flag, topPosition, bottomPosition}) {
 
   var outfitArray = outfitArray;
-
+  if(topPosition > 5 || topPosition < 0){
+    topPosition = 1
+  }
+  if(bottomPosition > 5 || bottomPosition < 0){
+    bottomPosition = 1
+  }
   //Will replace first parameter of both with selected url from carousel
   //Bottom getBottom currently using dummy urls in JSON
   var selectedTop = getTop(topArray[topPosition].photoUrl, topArray);

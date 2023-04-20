@@ -18,7 +18,7 @@ export default function ManualPage({clothingData, showComponent}){
     var bottomSelectedItem = bottomArray[0];
 
     var [Part2Flag, setFlagVisible] = useState(false);
-    var [carouselTopPositionPart1, setCarouselTopPosition] = useState(2);
+    var [carouselTopPositionPart1, setCarouselTopPosition] = useState(0);
     var [carouselBottomPositionPart1, setCarouselBottomPosition] = useState(0);
     
     if(showComponent == true && Part2Flag == false){
@@ -34,6 +34,8 @@ export default function ManualPage({clothingData, showComponent}){
                  topPositionFlag = {setCarouselTopPosition}
                  bottomPositionFlag = {setCarouselBottomPosition}
                  />
+                 {carouselTopPositionPart1}
+                 {carouselBottomPositionPart1}
             </div>
             
         );

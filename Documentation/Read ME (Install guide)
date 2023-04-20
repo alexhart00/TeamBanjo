@@ -1,0 +1,35 @@
+Starting Guide
+{
+    Go to https://code.visualstudio.com/Download download VSCODE
+    Run Installer Default Settings
+    Link to Github alexhart00/TeamBanjo
+
+    Download Git https://git-scm.com/downloads
+    Run Installer Default Settings
+
+    Download NodeJS https://nodejs.org/en/download/
+    Run Installer Default Settings
+
+    Download Ngrok https://ngrok.com/
+    Run Installer Default Settings    
+}
+
+Trouble Shooting Help
+{
+    Ensure NodeJS installed by opening terminal select bash "node -v"
+    Download ngrok "Required by shopifiy, Web API that runs stuff locally for preview"
+    Install Hydrogen copy and past into comand "npm init @shopify/hydrogen"
+    Install "MongoDB for VS Code"
+    npm install -D tailwindcss @tailwindcss/typography postcss autoprefixer
+    npx tailwindcss init -p
+}
+"npm install"
+
+Everything has been installed
+{
+    npm install
+        To install dependencies
+    npm run dev
+        To run website
+        NOTE: CarouselTest.js need to be rebuild each time at startup, after checking http://localhost:3000/, give a moment then reload webpage.
+}
