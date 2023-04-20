@@ -4,7 +4,7 @@ import { Outfit } from "../../models/outfit.model";
 import { Top } from "../../models/top.model";
 import ItemCarousel from "./Carousel.client";
 
-export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArray, outfitArray, flag}) {
+export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArray, outfitArray, flag, topPositionFlag, bottomPositionFlag}) {
 
   var outfitArray = outfitArray;
 
