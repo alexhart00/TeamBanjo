@@ -5,14 +5,14 @@ import { Top } from "../../models/top.model";
 import ItemContainerDetail from "./ItemContainerDetail";
 import NoMatchPercentagePage from "./NoMatchPercentagePage";
 
-export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArray, outfitArray, flag}) {
+export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArray, outfitArray, flag, topPosition, bottomPosition}) {
 
   var outfitArray = outfitArray;
 
   //Will replace first parameter of both with selected url from carousel
   //Bottom getBottom currently using dummy urls in JSON
-  var selectedTop = getTop(topArray[3].photoUrl, topArray);
-  var selectedBottom = getBottom(bottomArray[0].photoUrl, bottomArray);
+  var selectedTop = getTop(topArray[topPosition].photoUrl, topArray);
+  var selectedBottom = getBottom(bottomArray[bottomPosition].photoUrl, bottomArray);
   var totalMatchPercentage = 100; // Change once totalMatchPercentage is figured out
 
   //next step would be displaying all outfit properties 

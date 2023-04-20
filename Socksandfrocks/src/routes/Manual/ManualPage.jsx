@@ -19,31 +19,8 @@ export default function ManualPage({clothingData, showComponent}){
 
     var [Part2Flag, setFlagVisible] = useState(false);
 
-    const [carouselTopPositionPart1, setCarouselTopPositionPart1] = useState(0);
-    const [carouselTopPositionPart2, setCarouselTopPositionPart2] = useState(0);
-    const [carouselBottomPositionPart1, setCarouselBottomPositionPart1] = useState(0);
-    const [carouselBottomPositionPart2, setCarouselBottomPositionPart2] = useState(0);
-
-    const handleTopCarouseChangePart1 = newPosition => {
-        setCarouselTopPositionPart1(newPosition);
-        setCarouselTopPositionPart2(newPosition);
-    };
-
-    const handleTopCarouseChangePart2 = newPosition => {
-        setCarouselTopPositionPart1(newPosition);
-        setCarouselTopPositionPart2(newPosition);
-    };
-
-    const handleBottomCarouseChangePart1 = newPosition => {
-        setCarouselBottomPositionPart1(newPosition);
-        setCarouselBottomPositionPart2(newPosition);
-    };
-
-    const handleBottomCarouseChangePart2 = newPosition => {
-        setCarouselBottomPositionPart1(newPosition);
-        setCarouselBottomPositionPart2(newPosition);
-    };
-
+    var [carouselTopPositionPart1, setCarouselTopPositionPart1] = useState(2);
+    var [carouselBottomPositionPart1, setCarouselBottomPositionPart1] = useState(0);
     
     if(showComponent == true && Part2Flag == false){
         return(
@@ -57,6 +34,7 @@ export default function ManualPage({clothingData, showComponent}){
                  bottomArray={bottomArray}
                  outfitArray={outfitArray}
                  flag = {setFlagVisible}
+                 
                  />
             </div>
             
@@ -74,6 +52,8 @@ export default function ManualPage({clothingData, showComponent}){
                  bottomArray={bottomArray}
                  outfitArray={outfitArray}
                  flag = {setFlagVisible}
+                 topPosition={carouselTopPositionPart1}
+                 bottomPosition={carouselBottomPositionPart1}
                  />
             </div>
         );
