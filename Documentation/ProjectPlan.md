@@ -133,3 +133,12 @@
 - Small issue with Carousel fixed
 - Finish Jara tickets
 - Item Details Container updated
+
+## Week 14 - Final Push
+### TO DO
+- Finish Stuff
+- Final touches
+### Done
+- 
+-
+-

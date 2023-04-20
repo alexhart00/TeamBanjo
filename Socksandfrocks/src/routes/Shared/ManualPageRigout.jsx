@@ -21,7 +21,7 @@ export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArr
     return(
       <div class="grid grid-cols-2 flex flex-wrap w-6/12 items-center p-8 bg-gray-100 border-gray-200 border-8 content-center centerDiv shadow-lg">
             <div class="mr-32 ml-32">
-                <ItemCarousel imgUrls={URlTop}/>
+                <ItemCarousel imgUrls={URlTop} updateFlag={topPositionFlag}/>
             </div>
           <div class="row-span-2 flex flex-wrap content-center text-center font-bold content-center bg-gray-100">
                 <div class="border-gray-200 border-8">
@@ -29,7 +29,7 @@ export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArr
                 </div>
           </div>
           <div class="mr-32 ml-32">
-                <ItemCarousel imgUrls={URlBottom}/>
+                <ItemCarousel imgUrls={URlBottom} updateFlag={bottomPositionFlag}/>
             </div>
       </div>
     );
