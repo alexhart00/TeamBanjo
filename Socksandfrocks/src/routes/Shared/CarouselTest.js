@@ -11,10 +11,9 @@ const Carousel = ({
     duration,
     timing,
     arrowSize,
-    carouselWidth,
-    position: initialPosition // add initial position as a prop
+    carouselWidth
   } = options;
-  const [position, setPosition] = useState(initialPosition); // set initial position as state
+  const [position, setPosition] = useState(0);
   const outBoxRef = useRef();
   const [restCardCount, setRestCardCount] = useState(null);
 
@@ -56,50 +55,46 @@ const Carousel = ({
     if (restCardCount !== null) return;
     setRestCardCount(children.length - itemsToShow);
   }, [children, itemsToShow, restCardCount]);
-  
-  useEffect(() => {
-    setPosition(initialPosition); // update position when initial position changes
-  }, [initialPosition]);
-
-  return (
-    <CarouselStyled className="carousel" carouselWidth={carouselWidth}>
-      <OutBox ref={outBoxRef}>
-        <Items position={position} duration={duration} timing={timing}>
-          {children}
-        </Items>
-      </OutBox>
-      <Arrow
-        size={arrowSize}
-        direction="RIGHT"
-        onClick={e => handleClickArrowBtn(e)}
-      />
-      <Arrow
-        size={arrowSize}
-        direction="LEFT"
-        onClick={e => handleClickArrowBtn(e)}
-      />
-    </CarouselStyled>
-  );
+  return /*#__PURE__*/React.createElement(CarouselStyled, {
+    className: "carousel",
+    carouselWidth: carouselWidth
+  }, /*#__PURE__*/React.createElement(OutBox, {
+    ref: outBoxRef
+  }, /*#__PURE__*/React.createElement(Items, {
+    position: position,
+    duration: duration,
+    timing: timing
+  }, children)), /*#__PURE__*/React.createElement(Arrow, {
+    size: arrowSize,
+    direction: 'RIGHT',
+    onClick: e => handleClickArrowBtn(e)
+  }), /*#__PURE__*/React.createElement(Arrow, {
+    size: arrowSize,
+    direction: 'LEFT',
+    onClick: e => handleClickArrowBtn(e)
+  }));
 };
 
 export default Carousel;
-
 const CarouselStyled = styled.div`
-  width: ${({ carouselWidth }) =>
-    carouselWidth ? `${carouselWidth}px` : `100%`};
+  width: ${({
+  carouselWidth
+}) => carouselWidth ? `${carouselWidth}px` : `100%`};
   position: relative;
 `;
-
 const OutBox = styled.div`
   overflow: hidden;
   position: relative;
 `;
-
 const Items = styled.div`
   display: flex;
   width: fit-content;
   position: relative;
-  transition: ${({ duration, timing }) =>
-    `all ${duration}s ${timing}`};
-  transform: ${({ position }) => `translateX(${position}px)`};
+  transition: ${({
+  duration,
+  timing
+}) => `all ${duration}s ${timing}`};
+  transform: ${({
+  position
+}) => `translateX(${position}px)`};
 `;
