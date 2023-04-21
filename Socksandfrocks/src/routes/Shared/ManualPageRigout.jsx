@@ -4,7 +4,7 @@ import { Outfit } from "../../models/outfit.model";
 import { Top } from "../../models/top.model";
 import ItemCarousel from "./Carousel.client";
 
-export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArray, outfitArray, flag, topPositionFlag, bottomPositionFlag}) {
+export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArray, outfitArray, flag, TopLeftPosition, TopRightPosition, BottomLeftPosition, BottomRightPosition, topLeftValue, topRightValue, bottomLeftValue, bottomRightValue}) {
 
   var outfitArray = outfitArray;
 
@@ -21,7 +21,7 @@ export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArr
     return(
       <div class="grid grid-cols-2 flex flex-wrap w-6/12 items-center p-8 bg-gray-100 border-gray-200 border-8 content-center centerDiv shadow-lg">
             <div class="mr-32 ml-32">
-                <ItemCarousel imgUrls={URlTop} updateFlag={topPositionFlag}/>
+                <ItemCarousel imgUrls={URlTop} updateLeftFlag={TopLeftPosition} leftFlagValue={topLeftValue} updateRightFlag={TopRightPosition} rightFlagValue={topRightValue}/>
             </div>
           <div class="row-span-2 flex flex-wrap content-center text-center font-bold content-center bg-gray-100">
                 <div class="border-gray-200 border-8">
@@ -29,7 +29,7 @@ export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArr
                 </div>
           </div>
           <div class="mr-32 ml-32">
-                <ItemCarousel imgUrls={URlBottom} updateFlag={bottomPositionFlag}/>
+                <ItemCarousel imgUrls={URlBottom} updateLeftFlag={BottomLeftPosition} leftFlagValue={bottomLeftValue} updateRightFlag={BottomRightPosition}  rightFlagValue={bottomRightValue}/>
             </div>
       </div>
     );

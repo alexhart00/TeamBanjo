@@ -18,8 +18,11 @@ export default function ManualPage({clothingData, showComponent}){
     var bottomSelectedItem = bottomArray[0];
 
     var [Part2Flag, setFlagVisible] = useState(false);
-    var [carouselTopPositionPart1, setCarouselTopPosition] = useState(0);
-    var [carouselBottomPositionPart1, setCarouselBottomPosition] = useState(0);
+    var [carouselTopLeftPosition, setCarouselTopLeftPosition] = useState(0);
+    var [carouselTopRightPosition, setCarouselTopRightPosition] = useState(0);
+    var [carouselBottomLeftPosition, setCarouselBottomLeftPosition] = useState(0);
+    var [carouselBottomRightPosition, setCarouselBottomRightPosition] = useState(0);
+
     
     if(showComponent == true && Part2Flag == false){
         return(
@@ -31,11 +34,15 @@ export default function ManualPage({clothingData, showComponent}){
                  bottomArray={bottomArray}
                  outfitArray={outfitArray}
                  flag = {setFlagVisible}
-                 topPositionFlag = {setCarouselTopPosition}
-                 bottomPositionFlag = {setCarouselBottomPosition}
+                 TopLeftPosition = {setCarouselTopLeftPosition}
+                 TopRightPosition ={setCarouselTopRightPosition}
+                 BottomLeftPosition = {setCarouselBottomLeftPosition}
+                 BottomRightPosition = {setCarouselBottomRightPosition}
+                 topLeftValue = {carouselTopLeftPosition} 
+                 topRightValue = {carouselTopRightPosition}
+                 bottomLeftValue = {carouselBottomLeftPosition}
+                 bottomRightValue = {carouselBottomRightPosition}
                  />
-                 {carouselTopPositionPart1}
-                 {carouselBottomPositionPart1}
             </div>
             
         );
@@ -52,8 +59,14 @@ export default function ManualPage({clothingData, showComponent}){
                  bottomArray={bottomArray}
                  outfitArray={outfitArray}
                  flag = {setFlagVisible}
-                 topPosition={carouselTopPositionPart1}
-                 bottomPosition={carouselBottomPositionPart1}
+                 TopLeftPosition = {setCarouselTopLeftPosition}
+                 TopRightPosition ={setCarouselTopRightPosition}
+                 BottomLeftPosition = {setCarouselBottomLeftPosition}
+                 BottomRightPosition = {setCarouselBottomRightPosition}
+                 topLeftValue = {carouselTopLeftPosition} 
+                 topRightValue = {carouselTopRightPosition}
+                 bottomLeftValue = {carouselBottomLeftPosition}
+                 bottomRightValue = {carouselBottomRightPosition}
                  />
             </div>
         );

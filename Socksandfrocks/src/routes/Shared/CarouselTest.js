@@ -3,7 +3,10 @@ import styled from 'styled-components';
 import Arrow from '@somedaycode/react-carousel/dist/Arrow';
 
 const Carousel = ({
-  updateFlag, 
+  updateLeftFlag,
+  leftFlagValue,
+  updateRightFlag,
+  rightFlagValue,
   children,  
   ...options
 }) => {
@@ -36,8 +39,8 @@ const Carousel = ({
     }
 
     setRestCardCount(cardCount => cardCount - itemsToShow);
+    updateRightFlag(rightFlagValue + 1);
     setPosition(position - outBoxWidth);
-    updateFlag(position);
   };
 
   const moveLeft = outBoxWidth => {
@@ -46,11 +49,13 @@ const Carousel = ({
 
     if (restCardCount + itemsToShow > defaultCardCount) {
       setRestCardCount(defaultCardCount);
+      updateFlag(position- outBoxWidth / itemsToShow * restCardCount);
       return setPosition(0);
     }
 
     setRestCardCount(cardCount => cardCount + itemsToShow);
     setPosition(position + outBoxWidth);
+    updateLeftFlag(leftFlagValue + 1);
     updateFlag(position);
   };
 

@@ -5,21 +5,17 @@ import { Top } from "../../models/top.model";
 import ItemContainerDetail from "./ItemContainerDetail";
 import NoMatchPercentagePage from "./NoMatchPercentagePage";
 
-export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArray, outfitArray, flag, topPosition, bottomPosition}) {
+export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArray, outfitArray, flag, TopLeftPosition, TopRightPosition, BottomLeftPosition, BottomRightPosition, topLeftValue, topRightValue, bottomLeftValue, bottomRightValue}) {
 
   var outfitArray = outfitArray;
-  if(topPosition > 5 || topPosition < 0){
-    topPosition = 1
-  }
-  if(bottomPosition > 5 || bottomPosition < 0){
-    bottomPosition = 1
-  }
+  var topValue = Math.abs(topLeftValue-topRightValue);
+  var bottomValue = Math.abs(bottomLeftValue-bottomRightValue);
   //Will replace first parameter of both with selected url from carousel
   //Bottom getBottom currently using dummy urls in JSON
-  var selectedTop = getTop(topArray[topPosition].photoUrl, topArray);
-  var selectedBottom = getBottom(bottomArray[bottomPosition].photoUrl, bottomArray);
+  var selectedTop = getTop(topArray[topValue].photoUrl, topArray);
+  var selectedBottom = getBottom(bottomArray[bottomValue].photoUrl, bottomArray);
   var totalMatchPercentage = 100; // Change once totalMatchPercentage is figured out
-
+  
   //next step would be displaying all outfit properties 
   var selectedOutfit = findOutfit(selectedTop, selectedBottom, outfitArray);
 
@@ -42,7 +38,7 @@ export default function ManualPageRigout({URlTop, URlBottom, topArray, bottomArr
                     <img class="rounded-lg object-center max-h-52 m-auto" src={selectedOutfit.photoUrl} alt="Item-photo"/>
                 </div>
                 <div class="border-gray-200 border-8">
-                <button type="button" class="SFbutton" onClick={() => {flag(false)}}><span style={{ fontWeight: 'bold' }}>Go back</span></button>
+                <button type="button" class="SFbutton" onClick={() => {flag(false),TopLeftPosition(0),TopRightPosition(0), BottomLeftPosition(0),BottomRightPosition(0)}}><span style={{ fontWeight: 'bold' }}>Go back</span></button>
                 </div>
               </ul>
           </div>
