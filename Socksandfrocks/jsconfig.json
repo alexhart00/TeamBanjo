@@ -5,7 +5,6 @@
     "moduleResolution": "node16",
     "lib": ["dom", "dom.iterable", "scripthost", "es2020"],
     "jsx": "react-jsx",
-    "types": ["vite/client"],
     "baseUrl": ".",
     "allowJs": true,
     "forceConsistentCasingInFileNames": true,
@@ -19,7 +18,7 @@
   "include": [
     "**/*.js",
     "**/*.jsx",
-    "src/components/HomeContent.server.jsx",
-    "src/routes/index.server.tsx"
+    "app/components/HomeContent.server.jsx",
+    "app/routes/index.server.tsx"
   ]
 }
