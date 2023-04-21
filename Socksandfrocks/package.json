@@ -28,7 +28,9 @@
   "dependencies": {
     "@ant-design/react-slick": "^1.0.0",
     "@remix-run/cloudflare": "^1.15.0",
+    "@remix-run/cloudflare-workers": "^1.15.0",
     "@remix-run/deno": "^1.15.0",
+    "@remix-run/express": "^1.15.0",
     "@remix-run/react": "^1.15.0",
     "@remix-run/v1-route-convention": "^0.1.1",
     "@shopify/hydrogen": "^2023.4.0",
