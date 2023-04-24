@@ -20,5 +20,5 @@
     "**/*.jsx",
     "app/components/HomeContent.server.jsx",
     "app/routes/index.server.tsx"
-  ]
+, "app/root.jsx"  ]
 }
