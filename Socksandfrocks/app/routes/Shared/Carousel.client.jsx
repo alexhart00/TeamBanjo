@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Carousel from '@somedaycode/react-carousel';
+import Carousel from '../Shared/CarouselTest';
 import styled from 'styled-components';
 
 export default function ItemCarousel({imgUrls, updateLeftFlag, leftFlagValue, updateRightFlag, rightFlagValue}){
