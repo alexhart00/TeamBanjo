@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Carousel from '@somedaycode/react-carousel';
 import styled from 'styled-components';
 
-export default function ItemCarousel({imgUrls, updateLeftFlag, leftFlagValue, updateRightFlag, rightFlagValue}}){
+export default function ItemCarousel({imgUrls, updateLeftFlag, leftFlagValue, updateRightFlag, rightFlagValue}){
 
     const options = {
         carouselWidth: 200,
