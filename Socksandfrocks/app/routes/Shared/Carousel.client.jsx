@@ -29,7 +29,7 @@ export default function ItemCarousel({imgUrls, updateLeftFlag, leftFlagValue, up
 
       return(
         <div>
-            <Carousel {...options, updateLeftFlag={updateLeftFlag}, leftFlagValue={leftFlagValue}, updateRightFlag={updateRightFlag}, rightFlagValue={rightFlagValue}}>{items}</Carousel>
+            <Carousel updateLeftFlag={updateLeftFlag} leftFlagValue={leftFlagValue} updateRightFlag={updateRightFlag} rightFlagValue={rightFlagValue} {...options}>{items}</Carousel>
         </div>
       )
 
