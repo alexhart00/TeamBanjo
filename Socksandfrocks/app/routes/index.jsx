@@ -2,10 +2,10 @@ import { useSession } from "@shopify/hydrogen";
 
 import NavBar from "./Shared/NavBar.client";
 
-import products from "../assets/database/products.json";
-import tops from "../assets/database/tops.json";
-import bottoms from '../assets/database/bottoms.json';
-import outfits from '../assets/database/outfits.json';
+import products from "../../public/assets/database/products.json";
+import tops from "../../public/assets/database/tops.json";
+import bottoms from '../../public/assets/database/bottoms.json';
+import outfits from '../../public/assets/database/outfits.json';
 
 import { Bottom } from "../models/bottom.model";
 import { Top } from "../models/top.model";

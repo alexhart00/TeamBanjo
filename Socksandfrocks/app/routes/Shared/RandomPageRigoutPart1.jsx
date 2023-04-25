@@ -1,5 +1,5 @@
-import products from "../../assets/database/products.json"
-import RandomImage from '../../assets/pictures/RandomPickout.png'
+import products from "../../../public/assets/database/products.json"  
+import RandomImage from '../../../public/assets/pictures/RandomPickout.png'
 
 export default function RandomPageRigoutPart1({flag, percentageMatch, setPercentageMatch}) {
 

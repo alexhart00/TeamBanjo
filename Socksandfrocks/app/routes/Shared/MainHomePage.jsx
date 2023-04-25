@@ -1,6 +1,6 @@
-import Curated from '../../assets/pictures/Curated3232023.jpg';
-import Manual from '../../assets/pictures/Manual3232023.jpg';
-import Random from '../../assets/pictures/Random3232023.jpg';
+import Curated from '../../../public/assets/pictures/Curated3232023.jpg';
+import Manual from '../../../public/assets/pictures/Manual3232023.jpg';
+import Random from '../../../public/assets/pictures/Random3232023.jpg';
 
 export default function MainHomePage({setisHomeVisible, setIsCuratedVisible, setIsManualVisible, setIsRandomVisible}) {
     return(

@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import Robot from '../../assets/pictures/S&F.jpg';
+import Robot from '../../../public/assets/pictures/S&F.jpg';
 
 import CuratedPage from '../Curated/CuratedPage';
 import HomePage from '../Home/HomePage';

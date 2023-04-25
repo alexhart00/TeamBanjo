@@ -1,4 +1,4 @@
-import products from "../../assets/database/products.json"
+import products from "../../../public/assets/database/products.json"
 import ItemCarousel from '../Shared/Carousel.client';
 import Carousel from '@somedaycode/react-carousel';
 import styled from 'styled-components';

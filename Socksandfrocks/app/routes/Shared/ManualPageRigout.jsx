@@ -1,4 +1,4 @@
-import products from "../../assets/database/products.json"
+import products from "../../../public/assets/database/products.json"
 import { Bottom } from "../../models/bottom.model";
 import { Outfit } from "../../models/outfit.model";
 import { Top } from "../../models/top.model";

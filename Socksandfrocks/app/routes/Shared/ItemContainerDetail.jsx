@@ -1,4 +1,4 @@
-import products from "../../assets/database/products.json"
+import products from "../../../public/assets/database/products.json"  
 
 export default function ItemContainerDetail({item}) {
     return(
