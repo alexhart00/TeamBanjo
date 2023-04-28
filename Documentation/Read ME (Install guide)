@@ -41,6 +41,8 @@ On the Random page, the user will choose a percentage match that they want and t
 
 ---- Everything has been installed ----
 {
+    cd Socksandfrocks
+    
     npm install
         To install dependencies
     npm run dev
