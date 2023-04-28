@@ -73,7 +73,7 @@ export function CatchBoundary() {
   // render a 404 page
   else return; // render a generic 500 error page
 }
-export async function loader({context}) {
+export async function loader2({context}) {
     const token = await context.session.get('customerAccessToken');
   }
   
