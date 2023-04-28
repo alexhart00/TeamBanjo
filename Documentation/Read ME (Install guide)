@@ -34,7 +34,6 @@ On the Random page, the user will choose a percentage match that they want and t
     Ensure NodeJS installed by opening terminal select bash "node -v"
     Download ngrok "Required by shopifiy, Web API that runs stuff locally for preview"
     Install Hydrogen copy and past into comand "npm init @shopify/hydrogen"
-    Install "MongoDB for VS Code"
     npm install -D tailwindcss @tailwindcss/typography postcss autoprefixer
     npx tailwindcss init -p
 }
