@@ -1,4 +1,4 @@
-import { useSession } from "@shopify/hydrogen";
+//import { useSession } from "@shopify/hydrogen";
 
 import NavBar from "./Shared/NavBar.client";
 

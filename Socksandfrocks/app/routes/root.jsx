@@ -6,8 +6,8 @@ import {
     ScrollRestoration,
     useLoaderData,
   } from '@remix-run/react';
-  import styles from './styles/app.css';
-  import favicon from '../public/favicon.svg';
+  import styles from '../index.css';
+  import favicon from '../../public/assets/favicon.svg';
   
   export const links = () => {
     return [
