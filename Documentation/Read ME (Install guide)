@@ -46,6 +46,8 @@ On the Random page, the user will choose a percentage match that they want and t
     npm install
         To install dependencies
     cd Socksandfrocks
+    npm install
+        again
     npm run dev
         To run website
         NOTE: CarouselTest.js need to be rebuild each time at startup, after checking http://localhost:3000/, give a moment then reload webpage.
