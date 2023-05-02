@@ -1,6 +1,7 @@
 import Curated from '../../../public/assets/pictures/Curated.png';
 import Manual from '../../../public/assets/pictures/Manual.png';
 import Random from '../../../public/assets/pictures/Random.png';
+import createRoot from 'react-dom/client';
 
 export default function MainHomePage({setisHomeVisible, setIsCuratedVisible, setIsManualVisible, setIsRandomVisible}) {
     return(
@@ -35,3 +36,6 @@ export default function MainHomePage({setisHomeVisible, setIsCuratedVisible, set
     );
   }
 
+const domNode = document.getElementById('MainHomePage');
+const root = createRoot(domNode);
+root.render(<MainHomePage />);
