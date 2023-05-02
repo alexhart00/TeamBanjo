@@ -8,6 +8,7 @@ import {
   } from '@remix-run/react';
   import styles from '../index.css';
   import favicon from '../../public/assets/favicon.svg';
+  import Home from './Shared/MainHomePage';
   
   export const links = () => {
     return [
@@ -39,14 +40,15 @@ import {
         <head>
         <meta charset="UTF-8" />
         <link rel="preconnect" href="https://cdn.shopify.com" />
-        <link rel="icon" type="image/svg+xml" href="/src/assets/favicon.svg" />
+        <link rel="icon" type="image/svg+xml" href="/app/public/assets/favicon.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Socksandfrocks</title>
-        <link rel="stylesheet" href="/src/index.css" />
+        <link rel="stylesheet" href="/app/index.css" />
         </head>
         <body>
           <h1>Hello, {name}</h1>
           <p>This is a custom storefront powered by Hydrogen</p>
+          <Home></Home>
           <Outlet />
           <ScrollRestoration />
           <Scripts />
