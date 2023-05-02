@@ -1,0 +1,3 @@
+name = "RP App"
+extension_directories = ["extensions/*"]
+web_directories = ["app/*"]
