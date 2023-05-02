@@ -1,8 +1,8 @@
 import renderHydrogen from '@shopify/hydrogen/entry-server';
 import {Router, FileRoutes, ShopifyProvider, Route} from '@shopify/hydrogen';
 import {Suspense} from 'react';
-import Home from './routes/Shared/MainHomePage';
-import NotFoundPage from './routes/NotFoundPage';
+import Home from './root';
+import NotFoundPage from './routes/Shared/FZFPage';
 
 function App() {
   return (

@@ -8,6 +8,12 @@ import {
   } from '@remix-run/react';
   import styles from './index.css';
   import favicon from '../public/assets/favicon.svg';
+
+  import Curated from '../public/assets/pictures/Curated.png';
+  import Manual from '../public/assets/pictures/Manual.png';
+  import Random from '../public/assets/pictures/Random.png';
+
+
   
   export const links = () => {
     return [
@@ -29,7 +35,7 @@ import {
     return {layout};
   }
   
-  export default function App() {
+  export default function App({setisHomeVisible, setIsCuratedVisible, setIsManualVisible, setIsRandomVisible}) {
     const data = useLoaderData();
   
     const {name} = data.layout.shop;
@@ -42,11 +48,13 @@ import {
         <link rel="icon" type="image/svg+xml" href="/app/public/assets/favicon.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Socksandfrocks</title>
-        <link rel="stylesheet" href="/app/index.css" />
+        <link rel="stylesheet" href="./index.css" />
         </head>
         <body>
           <h1>Hello, {name}</h1>
           <p>This is a custom storefront powered by Hydrogen</p>
+          
+
           <Outlet />
           <ScrollRestoration />
           <Scripts />

@@ -1,8 +1,23 @@
-export async function loader() {
-    throw new Response('Not found', {status: 404});
-  }
-  
-  export default function Component() {
-    return null;
-  }
-  
+//import { useSession } from "@shopify/hydrogen";
+
+import FZFPage from "./Shared/FZFPage";
+
+
+export default function NotFoundPage() {
+
+  var userToken = getUserToken();
+  //currently undefined
+  console.log(userToken);
+
+
+  return(
+    <div>
+      <FZFPage/>
+    </div>
+  );
+}
+
+function getUserToken(){
+  const { accessToken } = useSession();
+  return accessToken;
+}
