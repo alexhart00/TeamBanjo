@@ -35,6 +35,7 @@
     "@remix-run/react": "^1.15.0",
     "@remix-run/v1-route-convention": "^0.1.1",
     "@shopify/hydrogen": "^2023.4.0",
+    "@shopify/plugin-cloudflare": "^3.45.2",
     "@shopify/remix-oxygen": "^1.0.5",
     "@somedaycode/react-carousel": "^0.1.6",
     "isbot": "latest",

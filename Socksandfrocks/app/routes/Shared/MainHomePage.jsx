@@ -38,7 +38,4 @@ export default function MainHomePage({setisHomeVisible, setIsCuratedVisible, set
     
 
   }
-  const domNode = document.getElementById('MainHomePage');
-    const root = createRoot(domNode);
-    root.render(<MainHomePage />);
 
