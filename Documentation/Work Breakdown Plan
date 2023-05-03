@@ -2,6 +2,7 @@ Project Plan Approach
 Agile methodology
 
 Tasks
+
 Web Development: Build a website that interfaces with the database and the clothes picker program, with accounts that interfaces with all components of the project.
 
 Mobile Development: Build a Mobile application that interfaces with the database and the cloths picker program, with accounts that interfaces with all components of the project.
@@ -28,7 +29,6 @@ Order for the tasks to be completed.
 	2.2 Program integration with web application - Everyone
 
 3 Web Development:
-
 	3.1 Web UI design - Alex, Emma & Connor
 	3.2 Web database integration - Everyone
 	3.3 Web Clothes picker integration - Everyone

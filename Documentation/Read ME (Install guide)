@@ -14,6 +14,20 @@ photo and be able to shop for the items they are selecting.
 
 On the Random page, the user will choose a percentage match that they want and the app will select a random outfit for them
 
+---- Special Note on Hydrogen 1 and Hydrogen 2 with remix ----
+{
+    While initially the Rigout Pickout was built on Hydrogen 1, with the release of Hydrogen 2 with remix, new bugs, and features have been introduced.
+    Which has had a strong negative impact on the original application, we apologize for any errors that result, from the new hydrogen """""update""""".
+    The methods that were used to start development on the Rigout Pickout and the code that was used in the application had to be retrofitted.
+    With that said the method for starting and installing the application should be relatively similar, the different processes have been added below.
+    It definitely should be noted that the process to work on and run a development build has become much more difficult.
+    While initially the Rigout Pickout was built on Hydrogen 1, with the release of Hydrogen 2 with remix, new bugs, and features have been introduced.
+    Which has had a strong negative impact on the original application, we apologize for any errors that result, from the new hydrogen """""update""""".
+    The methods that were used to start development on the Rigout Pickout and the code that was used in the application had to be retrofitted.
+    With that said the method for starting and installing the application should be relatively similar, the different processes have been added below.
+    It definitely should be noted that the process to work on and run a development build has become much more difficult.
+}
+
 ---- Starting Guide ----
 {
     Go to https://code.visualstudio.com/Download download VSCODE
@@ -26,9 +40,13 @@ On the Random page, the user will choose a percentage match that they want and t
     Download NodeJS https://nodejs.org/en/download/
     Run Installer Default Settings
 
+    Download yarn https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable
+    "npm install --global yarn"
+
     Download Ngrok https://ngrok.com/
     Run Installer Default Settings    
 }
+
 ---- Trouble Shooting Help ----
 {
     Ensure NodeJS installed by opening terminal select bash "node -v"
@@ -36,19 +54,29 @@ On the Random page, the user will choose a percentage match that they want and t
     Install Hydrogen copy and past into comand "npm init @shopify/hydrogen"
     npm install -D tailwindcss @tailwindcss/typography postcss autoprefixer
     npx tailwindcss init -p
+    Possible missing nodes from remix
+    "npm install @remix-run/react @shopify/remix-oxygen @shopify/hydrogen@latest @shopify/cli@latest @shopify/cli-hydrogen@latest"
 }
-"npm install"
 
 ---- Everything has been installed ----
-{
+{   
+    Hydrogen 1 version : (Old Method)
+        "npm install"
+            To update dependencies
+        "cd Socksandfrocks"
+        "npm run dev"
+            To run website
+            NOTE:
+                CarouselTest.js need to be rebuild each time at startup, after checking http://localhost:3000/, give a moment then reload webpage.
     
-    
-    npm install
-        To install dependencies
-    cd Socksandfrocks
-    npm install
-        again
-    npm run dev
+    Hydrogen 2 Version : (Current Method)
+        "npm install"
+            To install dependencies
+        "cd Socksandfrocks"
         To run website
-        NOTE: CarouselTest.js need to be rebuild each time at startup, after checking http://localhost:3000/, give a moment then reload webpage.
+            "yarn build"
+            "yarn preview"
+        NOTE: 
+            With the number of interconnections of packages and runtime environment and the relatively new update to Hydrogen.
+            It may be very difficult to run a build that will work, without the version of software list in package.json and package-lock.json
 }

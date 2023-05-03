@@ -1,64 +1,61 @@
-As A(n)
-I want to
-So that
-AC: Given, When, Then
+All completed or catorgized with out of scope.
 
-Customer
+Customer - Out of Scope
 Log in to the system
 I can access my account and access full features
 I am a customer on the site, when I enter the clothes picker, then i am logged in and can save outfits
 
-Customer
+Customer - Complete
 Choose a way to build my outfit
 I can design my outfit in a preset, random, or custom way
 I am a customer on the site, when I choose to create an outfit, then I can choose between manual, automatic, and random
 
-Customer
+Customer - Complete
 Manually build my outfit, by browsing the items and adding them
 I can choose each item individually in the outfit
 I am a customer creating an outfit, when I add items from the clothing categories, then they will appear in outfit creator
 
-Customer
+Customer - Complete
 See an outfit match percentage 
 I get an estimate on how well the outfit works
 I am a customer creating an outfit, when I complete an outfit, then I get returned a match percentage
 
-Customer
+Customer - Complete
 Have outfits created based on at least one criteria (style/color/dress code)
 I can quickly have a selection of  outfits generated for me
 I am a customer using the clothes picker, when I select an auto-outfit with criteria, then a selection of outfits are returned to me and I can save them individually
 
-Customer
+Customer - Complete
 Have a random outfit created with a match % over 80
 I can see a random combination of items that make a matching outfit
 I am a customer using the clothes picker, when I use the random outfit option, then an outfit with random items that has a matching % over 80 is returned to me
 
-Customer
+Customer - Out of Scope
 Save an outfit (or items) to my account
 I can access or purchase it later
 I am a customer building an outfit, when I save the outfit to my account, I can view it on my profile later
 
-Customer
+Customer - Out of Scope
 Change or add personal info to my profile (Preferences, Body Type, Profile Photo)
 Outfit styles will match my personal preferences  
 I am a customer logged in to the site, when I edit my profile, then I can add personal details and save them
 
-Customer
+Customer 
 Add outfit or items from outfit to my cart
 I can easily purchase the whole outfit or items from it
 I am a customer viewing an outfit, when I add the outfit (or manually selected items) to my cart, then it is added to my cart for purchase
 
-Admin
+Admin - Out of Scope
 Add new clothes to the application
 Customers have new options to browse
 I am an admin, when I add clothes to the database, then users can see them on the site
 
-Admin
+Admin - Out of Scope
 Add or modify tags or photos on existing clothes
 Tags/Photos can more accurately represent clothes
 I am an admin making changes, when I view a clothing option, then I can add or modify existing tags/photos.
 
-Admin
+Admin - Complete
 Add photo of full outfit, and connect the outfit to featured clothing
 Customers can see full outfits and what items they include
 I am and admin adding content to the site, when I add outfit photos, then the items in the outfit will be linked
